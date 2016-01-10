@@ -1,0 +1,7 @@
+- @page_title = 'Checkout'
+= render 'orders/checkout_sidebar'
+
+.checkout
+  %p.secure Secure connection
+  %h3 Pay using your credit/debit card
+  = link_to "Pay with PayPal", checkout_paypal_path
