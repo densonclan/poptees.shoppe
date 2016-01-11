@@ -12,6 +12,11 @@ gem 'faker'
 gem 'shoppe', '~> 1.1.2'
 gem 'thin'
 gem "shoppe-paypal"
+gem 'yaml_db'
+gem "shoppe-notification"
+gem 'mail_form'
+gem 'simple_form'
+
 
 group :development do
   gem 'capistrano'

@@ -46,5 +46,6 @@ Rails.application.routes.draw do
   # Homepage
   #
   root :to => 'pages#home'
+
   
 end
