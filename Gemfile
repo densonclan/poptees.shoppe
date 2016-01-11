@@ -12,6 +12,7 @@ gem 'faker'
 gem 'shoppe', '~> 1.1.2'
 gem 'thin'
 gem "shoppe-paypal"
+gem 'yaml_db'
 
 group :development do
   gem 'capistrano'

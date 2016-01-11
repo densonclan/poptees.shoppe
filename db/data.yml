@@ -1,0 +1,3046 @@
+
+---
+shoppe_attachments:
+  columns:
+  - id
+  - parent_id
+  - parent_type
+  - token
+  - file
+  - file_name
+  - file_size
+  - file_type
+  - role
+  - created_at
+  - updated_at
+  records: 
+  - - 6
+    - 6
+    - Shoppe::Product
+    - 64369b2f-b04f-43a0-939c-b3023f9c6686
+    - snom-870-grey.jpg
+    - snom-870-grey.jpg
+    - 105894
+    - image/jpeg
+    - default_image
+    - '2016-01-10 14:26:06.141318'
+    - '2016-01-10 14:26:06.141318'
+  - - 7
+    - 7
+    - Shoppe::Product
+    - 318f0208-470b-4f2d-ae47-42272e79a670
+    - snom-870-blk.jpg
+    - snom-870-blk.jpg
+    - 85691
+    - image/jpeg
+    - default_image
+    - '2016-01-10 14:26:06.586816'
+    - '2016-01-10 14:26:06.586816'
+  - - 13
+    - 5
+    - Shoppe::Product
+    - 658dda0f-2798-487b-a1c5-d86b7f44714b
+    - Bury-Boxing-Club-_Air_.jpg
+    - Bury-Boxing-Club-_Air_.jpg
+    - 435658
+    - image/jpeg
+    - default_image
+    - '2016-01-10 16:58:49.973130'
+    - '2016-01-10 16:58:49.973130'
+  - - 14
+    - 5
+    - Shoppe::Product
+    - daae4e6e-53d4-4eb6-a692-a644db28f455
+    - MensChart.jpg
+    - MensChart.jpg
+    - 44675
+    - image/jpeg
+    - data_sheet
+    - '2016-01-10 17:09:17.252906'
+    - '2016-01-10 17:09:17.252906'
+
+---
+shoppe_countries:
+  columns:
+  - id
+  - name
+  - code2
+  - code3
+  - continent
+  - tld
+  - currency
+  - eu_member
+  records: 
+  - - 1
+    - Andorra
+    - AD
+    - AND
+    - EU
+    - ad
+    - EUR
+    - false
+  - - 2
+    - United Arab Emirates
+    - AE
+    - ARE
+    - AS
+    - ae
+    - AED
+    - false
+  - - 3
+    - Afghanistan
+    - AF
+    - AFG
+    - AS
+    - af
+    - AFN
+    - false
+  - - 4
+    - Antigua and Barbuda
+    - AG
+    - ATG
+    - NA
+    - ag
+    - XCD
+    - false
+  - - 5
+    - Anguilla
+    - AI
+    - AIA
+    - NA
+    - ai
+    - XCD
+    - false
+  - - 6
+    - Albania
+    - AL
+    - ALB
+    - EU
+    - al
+    - ALL
+    - false
+  - - 7
+    - Armenia
+    - AM
+    - ARM
+    - AS
+    - am
+    - AMD
+    - false
+  - - 8
+    - Angola
+    - AO
+    - AGO
+    - AF
+    - ao
+    - AOA
+    - false
+  - - 9
+    - Antarctica
+    - AQ
+    - ATA
+    - AN
+    - aq
+    - 
+    - false
+  - - 10
+    - Argentina
+    - AR
+    - ARG
+    - SA
+    - ar
+    - ARS
+    - false
+  - - 11
+    - American Samoa
+    - AS
+    - ASM
+    - OC
+    - as
+    - USD
+    - false
+  - - 12
+    - Austria
+    - AT
+    - AUT
+    - EU
+    - at
+    - EUR
+    - true
+  - - 13
+    - Australia
+    - AU
+    - AUS
+    - OC
+    - au
+    - AUD
+    - false
+  - - 14
+    - Aruba
+    - AW
+    - ABW
+    - NA
+    - aw
+    - AWG
+    - false
+  - - 15
+    - Aland Islands
+    - AX
+    - ALA
+    - EU
+    - ax
+    - EUR
+    - false
+  - - 16
+    - Azerbaijan
+    - AZ
+    - AZE
+    - AS
+    - az
+    - AZN
+    - false
+  - - 17
+    - Bosnia and Herzegovina
+    - BA
+    - BIH
+    - EU
+    - ba
+    - BAM
+    - false
+  - - 18
+    - Barbados
+    - BB
+    - BRB
+    - NA
+    - bb
+    - BBD
+    - false
+  - - 19
+    - Bangladesh
+    - BD
+    - BGD
+    - AS
+    - bd
+    - BDT
+    - false
+  - - 20
+    - Belgium
+    - BE
+    - BEL
+    - EU
+    - be
+    - EUR
+    - true
+  - - 21
+    - Burkina Faso
+    - BF
+    - BFA
+    - AF
+    - bf
+    - XOF
+    - false
+  - - 22
+    - Bulgaria
+    - BG
+    - BGR
+    - EU
+    - bg
+    - BGN
+    - true
+  - - 23
+    - Bahrain
+    - BH
+    - BHR
+    - AS
+    - bh
+    - BHD
+    - false
+  - - 24
+    - Burundi
+    - BI
+    - BDI
+    - AF
+    - bi
+    - BIF
+    - false
+  - - 25
+    - Benin
+    - BJ
+    - BEN
+    - AF
+    - bj
+    - XOF
+    - false
+  - - 26
+    - Saint Barthelemy
+    - BL
+    - BLM
+    - NA
+    - gp
+    - EUR
+    - false
+  - - 27
+    - Bermuda
+    - BM
+    - BMU
+    - NA
+    - bm
+    - BMD
+    - false
+  - - 28
+    - Brunei
+    - BN
+    - BRN
+    - AS
+    - bn
+    - BND
+    - false
+  - - 29
+    - Bolivia
+    - BO
+    - BOL
+    - SA
+    - bo
+    - BOB
+    - false
+  - - 30
+    - Bonaire, Saint Eustatius and Saba NA
+    - BQ
+    - BES
+    - ".bq"
+    - USD
+    - 
+    - false
+  - - 31
+    - Brazil
+    - BR
+    - BRA
+    - SA
+    - br
+    - BRL
+    - false
+  - - 32
+    - Bahamas
+    - BS
+    - BHS
+    - NA
+    - bs
+    - BSD
+    - false
+  - - 33
+    - Bhutan
+    - BT
+    - BTN
+    - AS
+    - bt
+    - BTN
+    - false
+  - - 34
+    - Bouvet Island
+    - BV
+    - BVT
+    - AN
+    - bv
+    - NOK
+    - false
+  - - 35
+    - Botswana
+    - BW
+    - BWA
+    - AF
+    - bw
+    - BWP
+    - false
+  - - 36
+    - Belarus
+    - BY
+    - BLR
+    - EU
+    - by
+    - BYR
+    - false
+  - - 37
+    - Belize
+    - BZ
+    - BLZ
+    - NA
+    - bz
+    - BZD
+    - false
+  - - 38
+    - Canada
+    - CA
+    - CAN
+    - NA
+    - ca
+    - CAD
+    - false
+  - - 39
+    - Cocos Islands
+    - CC
+    - CCK
+    - AS
+    - cc
+    - AUD
+    - false
+  - - 40
+    - Democratic Republic of the Congo
+    - CD
+    - COD
+    - AF
+    - cd
+    - CDF
+    - false
+  - - 41
+    - Central African Republic
+    - CF
+    - CAF
+    - AF
+    - cf
+    - XAF
+    - false
+  - - 42
+    - Republic of the Congo
+    - CG
+    - COG
+    - AF
+    - cg
+    - XAF
+    - false
+  - - 43
+    - Switzerland
+    - CH
+    - CHE
+    - EU
+    - ch
+    - CHF
+    - false
+  - - 44
+    - Ivory Coast
+    - CI
+    - CIV
+    - AF
+    - ci
+    - XOF
+    - false
+  - - 45
+    - Cook Islands
+    - CK
+    - COK
+    - OC
+    - ck
+    - NZD
+    - false
+  - - 46
+    - Chile
+    - CL
+    - CHL
+    - SA
+    - cl
+    - CLP
+    - false
+  - - 47
+    - Cameroon
+    - CM
+    - CMR
+    - AF
+    - cm
+    - XAF
+    - false
+  - - 48
+    - China
+    - CN
+    - CHN
+    - AS
+    - cn
+    - CNY
+    - false
+  - - 49
+    - Colombia
+    - CO
+    - COL
+    - SA
+    - co
+    - COP
+    - false
+  - - 50
+    - Costa Rica
+    - CR
+    - CRI
+    - NA
+    - cr
+    - CRC
+    - false
+  - - 51
+    - Cuba
+    - CU
+    - CUB
+    - NA
+    - cu
+    - CUP
+    - false
+  - - 52
+    - Cape Verde
+    - CV
+    - CPV
+    - AF
+    - cv
+    - CVE
+    - false
+  - - 53
+    - Curacao
+    - CW
+    - CUW
+    - NA
+    - cw
+    - ANG
+    - false
+  - - 54
+    - Christmas Island
+    - CX
+    - CXR
+    - AS
+    - cx
+    - AUD
+    - false
+  - - 55
+    - Cyprus
+    - CY
+    - CYP
+    - EU
+    - cy
+    - EUR
+    - true
+  - - 56
+    - Czech Republic
+    - CZ
+    - CZE
+    - EU
+    - cz
+    - CZK
+    - true
+  - - 57
+    - Germany
+    - DE
+    - DEU
+    - EU
+    - de
+    - EUR
+    - true
+  - - 58
+    - Djibouti
+    - DJ
+    - DJI
+    - AF
+    - dj
+    - DJF
+    - false
+  - - 59
+    - Denmark
+    - DK
+    - DNK
+    - EU
+    - dk
+    - DKK
+    - true
+  - - 60
+    - Dominica
+    - DM
+    - DMA
+    - NA
+    - dm
+    - XCD
+    - false
+  - - 61
+    - Dominican Republic
+    - DO
+    - DOM
+    - NA
+    - do
+    - DOP
+    - false
+  - - 62
+    - Algeria
+    - DZ
+    - DZA
+    - AF
+    - dz
+    - DZD
+    - false
+  - - 63
+    - Ecuador
+    - EC
+    - ECU
+    - SA
+    - ec
+    - USD
+    - false
+  - - 64
+    - Estonia
+    - EE
+    - EST
+    - EU
+    - ee
+    - EUR
+    - true
+  - - 65
+    - Egypt
+    - EG
+    - EGY
+    - AF
+    - eg
+    - EGP
+    - false
+  - - 66
+    - Western Sahara
+    - EH
+    - ESH
+    - AF
+    - eh
+    - MAD
+    - false
+  - - 67
+    - Eritrea
+    - ER
+    - ERI
+    - AF
+    - er
+    - ERN
+    - false
+  - - 68
+    - Spain
+    - ES
+    - ESP
+    - EU
+    - es
+    - EUR
+    - true
+  - - 69
+    - Ethiopia
+    - ET
+    - ETH
+    - AF
+    - et
+    - ETB
+    - false
+  - - 70
+    - Finland
+    - FI
+    - FIN
+    - EU
+    - fi
+    - EUR
+    - true
+  - - 71
+    - Fiji
+    - FJ
+    - FJI
+    - OC
+    - fj
+    - FJD
+    - false
+  - - 72
+    - Falkland Islands
+    - FK
+    - FLK
+    - SA
+    - fk
+    - FKP
+    - false
+  - - 73
+    - Micronesia
+    - FM
+    - FSM
+    - OC
+    - fm
+    - USD
+    - false
+  - - 74
+    - Faroe Islands
+    - FO
+    - FRO
+    - EU
+    - fo
+    - DKK
+    - false
+  - - 75
+    - France
+    - FR
+    - FRA
+    - EU
+    - fr
+    - EUR
+    - true
+  - - 76
+    - Gabon
+    - GA
+    - GAB
+    - AF
+    - ga
+    - XAF
+    - false
+  - - 77
+    - United Kingdom
+    - GB
+    - GBR
+    - EU
+    - uk
+    - GBP
+    - true
+  - - 78
+    - Grenada
+    - GD
+    - GRD
+    - NA
+    - gd
+    - XCD
+    - false
+  - - 79
+    - Georgia
+    - GE
+    - GEO
+    - AS
+    - ge
+    - GEL
+    - false
+  - - 80
+    - French Guiana
+    - GF
+    - GUF
+    - SA
+    - gf
+    - EUR
+    - false
+  - - 81
+    - Guernsey
+    - GG
+    - GGY
+    - EU
+    - gg
+    - GBP
+    - false
+  - - 82
+    - Ghana
+    - GH
+    - GHA
+    - AF
+    - gh
+    - GHS
+    - false
+  - - 83
+    - Gibraltar
+    - GI
+    - GIB
+    - EU
+    - gi
+    - GIP
+    - false
+  - - 84
+    - Greenland
+    - GL
+    - GRL
+    - NA
+    - gl
+    - DKK
+    - false
+  - - 85
+    - Gambia
+    - GM
+    - GMB
+    - AF
+    - gm
+    - GMD
+    - false
+  - - 86
+    - Guinea
+    - GN
+    - GIN
+    - AF
+    - gn
+    - GNF
+    - false
+  - - 87
+    - Guadeloupe
+    - GP
+    - GLP
+    - NA
+    - gp
+    - EUR
+    - false
+  - - 88
+    - Equatorial Guinea
+    - GQ
+    - GNQ
+    - AF
+    - gq
+    - XAF
+    - false
+  - - 89
+    - Greece
+    - GR
+    - GRC
+    - EU
+    - gr
+    - EUR
+    - true
+  - - 90
+    - South Georgia and the South Sandwich Islands
+    - GS
+    - SGS
+    - AN
+    - gs
+    - GBP
+    - false
+  - - 91
+    - Guatemala
+    - GT
+    - GTM
+    - NA
+    - gt
+    - GTQ
+    - false
+  - - 92
+    - Guam
+    - GU
+    - GUM
+    - OC
+    - gu
+    - USD
+    - false
+  - - 93
+    - Guinea-Bissau
+    - GW
+    - GNB
+    - AF
+    - gw
+    - XOF
+    - false
+  - - 94
+    - Guyana
+    - GY
+    - GUY
+    - SA
+    - gy
+    - GYD
+    - false
+  - - 95
+    - Hong Kong
+    - HK
+    - HKG
+    - AS
+    - hk
+    - HKD
+    - false
+  - - 96
+    - Heard Island and McDonald Islands
+    - HM
+    - HMD
+    - AN
+    - hm
+    - AUD
+    - false
+  - - 97
+    - Honduras
+    - HN
+    - HND
+    - NA
+    - hn
+    - HNL
+    - false
+  - - 98
+    - Croatia
+    - HR
+    - HRV
+    - EU
+    - hr
+    - HRK
+    - true
+  - - 99
+    - Haiti
+    - HT
+    - HTI
+    - NA
+    - ht
+    - HTG
+    - false
+  - - 100
+    - Hungary
+    - HU
+    - HUN
+    - EU
+    - hu
+    - HUF
+    - true
+  - - 101
+    - Indonesia
+    - ID
+    - IDN
+    - AS
+    - id
+    - IDR
+    - false
+  - - 102
+    - Ireland
+    - IE
+    - IRL
+    - EU
+    - ie
+    - EUR
+    - true
+  - - 103
+    - Israel
+    - IL
+    - ISR
+    - AS
+    - il
+    - ILS
+    - false
+  - - 104
+    - Isle of Man
+    - IM
+    - IMN
+    - EU
+    - im
+    - GBP
+    - false
+  - - 105
+    - India
+    - IN
+    - IND
+    - AS
+    - in
+    - INR
+    - false
+  - - 106
+    - British Indian Ocean Territory
+    - IO
+    - IOT
+    - AS
+    - io
+    - USD
+    - false
+  - - 107
+    - Iraq
+    - IQ
+    - IRQ
+    - AS
+    - iq
+    - IQD
+    - false
+  - - 108
+    - Iran
+    - IR
+    - IRN
+    - AS
+    - ir
+    - IRR
+    - false
+  - - 109
+    - Iceland
+    - IS
+    - ISL
+    - EU
+    - is
+    - ISK
+    - false
+  - - 110
+    - Italy
+    - IT
+    - ITA
+    - EU
+    - it
+    - EUR
+    - true
+  - - 111
+    - Jersey
+    - JE
+    - JEY
+    - EU
+    - je
+    - GBP
+    - false
+  - - 112
+    - Jamaica
+    - JM
+    - JAM
+    - NA
+    - jm
+    - JMD
+    - false
+  - - 113
+    - Jordan
+    - JO
+    - JOR
+    - AS
+    - jo
+    - JOD
+    - false
+  - - 114
+    - Japan
+    - JP
+    - JPN
+    - AS
+    - jp
+    - JPY
+    - false
+  - - 115
+    - Kenya
+    - KE
+    - KEN
+    - AF
+    - ke
+    - KES
+    - false
+  - - 116
+    - Kyrgyzstan
+    - KG
+    - KGZ
+    - AS
+    - kg
+    - KGS
+    - false
+  - - 117
+    - Cambodia
+    - KH
+    - KHM
+    - AS
+    - kh
+    - KHR
+    - false
+  - - 118
+    - Kiribati
+    - KI
+    - KIR
+    - OC
+    - ki
+    - AUD
+    - false
+  - - 119
+    - Comoros
+    - KM
+    - COM
+    - AF
+    - km
+    - KMF
+    - false
+  - - 120
+    - Saint Kitts and Nevis
+    - KN
+    - KNA
+    - NA
+    - kn
+    - XCD
+    - false
+  - - 121
+    - North Korea
+    - KP
+    - PRK
+    - AS
+    - kp
+    - KPW
+    - false
+  - - 122
+    - South Korea
+    - KR
+    - KOR
+    - AS
+    - kr
+    - KRW
+    - false
+  - - 123
+    - Kosovo
+    - XK
+    - XKX
+    - EU
+    - ''
+    - EUR
+    - false
+  - - 124
+    - Kuwait
+    - KW
+    - KWT
+    - AS
+    - kw
+    - KWD
+    - false
+  - - 125
+    - Cayman Islands
+    - KY
+    - CYM
+    - NA
+    - ky
+    - KYD
+    - false
+  - - 126
+    - Kazakhstan
+    - KZ
+    - KAZ
+    - AS
+    - kz
+    - KZT
+    - false
+  - - 127
+    - Laos
+    - LA
+    - LAO
+    - AS
+    - la
+    - LAK
+    - false
+  - - 128
+    - Lebanon
+    - LB
+    - LBN
+    - AS
+    - lb
+    - LBP
+    - false
+  - - 129
+    - Saint Lucia
+    - LC
+    - LCA
+    - NA
+    - lc
+    - XCD
+    - false
+  - - 130
+    - Liechtenstein
+    - LI
+    - LIE
+    - EU
+    - li
+    - CHF
+    - false
+  - - 131
+    - Sri Lanka
+    - LK
+    - LKA
+    - AS
+    - lk
+    - LKR
+    - false
+  - - 132
+    - Liberia
+    - LR
+    - LBR
+    - AF
+    - lr
+    - LRD
+    - false
+  - - 133
+    - Lesotho
+    - LS
+    - LSO
+    - AF
+    - ls
+    - LSL
+    - false
+  - - 134
+    - Lithuania
+    - LT
+    - LTU
+    - EU
+    - lt
+    - LTL
+    - true
+  - - 135
+    - Luxembourg
+    - LU
+    - LUX
+    - EU
+    - lu
+    - EUR
+    - true
+  - - 136
+    - Latvia
+    - LV
+    - LVA
+    - EU
+    - lv
+    - LVL
+    - true
+  - - 137
+    - Libya
+    - LY
+    - LBY
+    - AF
+    - ly
+    - LYD
+    - false
+  - - 138
+    - Morocco
+    - MA
+    - MAR
+    - AF
+    - ma
+    - MAD
+    - false
+  - - 139
+    - Monaco
+    - MC
+    - MCO
+    - EU
+    - mc
+    - EUR
+    - false
+  - - 140
+    - Moldova
+    - MD
+    - MDA
+    - EU
+    - md
+    - MDL
+    - false
+  - - 141
+    - Montenegro
+    - ME
+    - MNE
+    - EU
+    - me
+    - EUR
+    - false
+  - - 142
+    - Saint Martin
+    - MF
+    - MAF
+    - NA
+    - gp
+    - EUR
+    - false
+  - - 143
+    - Madagascar
+    - MG
+    - MDG
+    - AF
+    - mg
+    - MGA
+    - false
+  - - 144
+    - Marshall Islands
+    - MH
+    - MHL
+    - OC
+    - mh
+    - USD
+    - false
+  - - 145
+    - Macedonia
+    - MK
+    - MKD
+    - EU
+    - mk
+    - MKD
+    - false
+  - - 146
+    - Mali
+    - ML
+    - MLI
+    - AF
+    - ml
+    - XOF
+    - false
+  - - 147
+    - Myanmar
+    - MM
+    - MMR
+    - AS
+    - mm
+    - MMK
+    - false
+  - - 148
+    - Mongolia
+    - MN
+    - MNG
+    - AS
+    - mn
+    - MNT
+    - false
+  - - 149
+    - Macao
+    - MO
+    - MAC
+    - AS
+    - mo
+    - MOP
+    - false
+  - - 150
+    - Northern Mariana Islands
+    - MP
+    - MNP
+    - OC
+    - mp
+    - USD
+    - false
+  - - 151
+    - Martinique
+    - MQ
+    - MTQ
+    - NA
+    - mq
+    - EUR
+    - false
+  - - 152
+    - Mauritania
+    - MR
+    - MRT
+    - AF
+    - mr
+    - MRO
+    - false
+  - - 153
+    - Montserrat
+    - MS
+    - MSR
+    - NA
+    - ms
+    - XCD
+    - false
+  - - 154
+    - Malta
+    - MT
+    - MLT
+    - EU
+    - mt
+    - EUR
+    - true
+  - - 155
+    - Mauritius
+    - MU
+    - MUS
+    - AF
+    - mu
+    - MUR
+    - false
+  - - 156
+    - Maldives
+    - MV
+    - MDV
+    - AS
+    - mv
+    - MVR
+    - false
+  - - 157
+    - Malawi
+    - MW
+    - MWI
+    - AF
+    - mw
+    - MWK
+    - false
+  - - 158
+    - Mexico
+    - MX
+    - MEX
+    - NA
+    - mx
+    - MXN
+    - false
+  - - 159
+    - Malaysia
+    - MY
+    - MYS
+    - AS
+    - my
+    - MYR
+    - false
+  - - 160
+    - Mozambique
+    - MZ
+    - MOZ
+    - AF
+    - mz
+    - MZN
+    - false
+  - - 161
+    - Namibia
+    - NA
+    - NAM
+    - AF
+    - na
+    - NAD
+    - false
+  - - 162
+    - New Caledonia
+    - NC
+    - NCL
+    - OC
+    - nc
+    - XPF
+    - false
+  - - 163
+    - Niger
+    - NE
+    - NER
+    - AF
+    - ne
+    - XOF
+    - false
+  - - 164
+    - Norfolk Island
+    - NF
+    - NFK
+    - OC
+    - nf
+    - AUD
+    - false
+  - - 165
+    - Nigeria
+    - NG
+    - NGA
+    - AF
+    - ng
+    - NGN
+    - false
+  - - 166
+    - Nicaragua
+    - NI
+    - NIC
+    - NA
+    - ni
+    - NIO
+    - false
+  - - 167
+    - Netherlands
+    - NL
+    - NLD
+    - EU
+    - nl
+    - EUR
+    - true
+  - - 168
+    - Norway
+    - 'NO'
+    - NOR
+    - EU
+    - 'no'
+    - NOK
+    - false
+  - - 169
+    - Nepal
+    - NP
+    - NPL
+    - AS
+    - np
+    - NPR
+    - false
+  - - 170
+    - Nauru
+    - NR
+    - NRU
+    - OC
+    - nr
+    - AUD
+    - false
+  - - 171
+    - Niue
+    - NU
+    - NIU
+    - OC
+    - nu
+    - NZD
+    - false
+  - - 172
+    - New Zealand
+    - NZ
+    - NZL
+    - OC
+    - nz
+    - NZD
+    - false
+  - - 173
+    - Oman
+    - OM
+    - OMN
+    - AS
+    - om
+    - OMR
+    - false
+  - - 174
+    - Panama
+    - PA
+    - PAN
+    - NA
+    - pa
+    - PAB
+    - false
+  - - 175
+    - Peru
+    - PE
+    - PER
+    - SA
+    - pe
+    - PEN
+    - false
+  - - 176
+    - French Polynesia
+    - PF
+    - PYF
+    - OC
+    - pf
+    - XPF
+    - false
+  - - 177
+    - Papua New Guinea
+    - PG
+    - PNG
+    - OC
+    - pg
+    - PGK
+    - false
+  - - 178
+    - Philippines
+    - PH
+    - PHL
+    - AS
+    - ph
+    - PHP
+    - false
+  - - 179
+    - Pakistan
+    - PK
+    - PAK
+    - AS
+    - pk
+    - PKR
+    - false
+  - - 180
+    - Poland
+    - PL
+    - POL
+    - EU
+    - pl
+    - PLN
+    - true
+  - - 181
+    - Saint Pierre and Miquelon
+    - PM
+    - SPM
+    - NA
+    - pm
+    - EUR
+    - false
+  - - 182
+    - Pitcairn
+    - PN
+    - PCN
+    - OC
+    - pn
+    - NZD
+    - false
+  - - 183
+    - Puerto Rico
+    - PR
+    - PRI
+    - NA
+    - pr
+    - USD
+    - false
+  - - 184
+    - Palestinian Territory
+    - PS
+    - PSE
+    - AS
+    - ps
+    - ILS
+    - false
+  - - 185
+    - Portugal
+    - PT
+    - PRT
+    - EU
+    - pt
+    - EUR
+    - true
+  - - 186
+    - Palau
+    - PW
+    - PLW
+    - OC
+    - pw
+    - USD
+    - false
+  - - 187
+    - Paraguay
+    - PY
+    - PRY
+    - SA
+    - py
+    - PYG
+    - false
+  - - 188
+    - Qatar
+    - QA
+    - QAT
+    - AS
+    - qa
+    - QAR
+    - false
+  - - 189
+    - Reunion
+    - RE
+    - REU
+    - AF
+    - re
+    - EUR
+    - false
+  - - 190
+    - Romania
+    - RO
+    - ROU
+    - EU
+    - ro
+    - RON
+    - true
+  - - 191
+    - Serbia
+    - RS
+    - SRB
+    - EU
+    - rs
+    - RSD
+    - false
+  - - 192
+    - Russia
+    - RU
+    - RUS
+    - EU
+    - ru
+    - RUB
+    - false
+  - - 193
+    - Rwanda
+    - RW
+    - RWA
+    - AF
+    - rw
+    - RWF
+    - false
+  - - 194
+    - Saudi Arabia
+    - SA
+    - SAU
+    - AS
+    - sa
+    - SAR
+    - false
+  - - 195
+    - Solomon Islands
+    - SB
+    - SLB
+    - OC
+    - sb
+    - SBD
+    - false
+  - - 196
+    - Seychelles
+    - SC
+    - SYC
+    - AF
+    - sc
+    - SCR
+    - false
+  - - 197
+    - Sudan
+    - SD
+    - SDN
+    - AF
+    - sd
+    - SDG
+    - false
+  - - 198
+    - South Sudan
+    - SS
+    - SSD
+    - AF
+    - ''
+    - SSP
+    - false
+  - - 199
+    - Sweden
+    - SE
+    - SWE
+    - EU
+    - se
+    - SEK
+    - true
+  - - 200
+    - Singapore
+    - SG
+    - SGP
+    - AS
+    - sg
+    - SGD
+    - false
+  - - 201
+    - Saint Helena
+    - SH
+    - SHN
+    - AF
+    - sh
+    - SHP
+    - false
+  - - 202
+    - Slovenia
+    - SI
+    - SVN
+    - EU
+    - si
+    - EUR
+    - true
+  - - 203
+    - Svalbard and Jan Mayen
+    - SJ
+    - SJM
+    - EU
+    - sj
+    - NOK
+    - false
+  - - 204
+    - Slovakia
+    - SK
+    - SVK
+    - EU
+    - sk
+    - EUR
+    - true
+  - - 205
+    - Sierra Leone
+    - SL
+    - SLE
+    - AF
+    - sl
+    - SLL
+    - false
+  - - 206
+    - San Marino
+    - SM
+    - SMR
+    - EU
+    - sm
+    - EUR
+    - false
+  - - 207
+    - Senegal
+    - SN
+    - SEN
+    - AF
+    - sn
+    - XOF
+    - false
+  - - 208
+    - Somalia
+    - SO
+    - SOM
+    - AF
+    - so
+    - SOS
+    - false
+  - - 209
+    - Suriname
+    - SR
+    - SUR
+    - SA
+    - sr
+    - SRD
+    - false
+  - - 210
+    - Sao Tome and Principe
+    - ST
+    - STP
+    - AF
+    - st
+    - STD
+    - false
+  - - 211
+    - El Salvador
+    - SV
+    - SLV
+    - NA
+    - sv
+    - USD
+    - false
+  - - 212
+    - Sint Maarten
+    - SX
+    - SXM
+    - NA
+    - sx
+    - ANG
+    - false
+  - - 213
+    - Syria
+    - SY
+    - SYR
+    - AS
+    - sy
+    - SYP
+    - false
+  - - 214
+    - Swaziland
+    - SZ
+    - SWZ
+    - AF
+    - sz
+    - SZL
+    - false
+  - - 215
+    - Turks and Caicos Islands
+    - TC
+    - TCA
+    - NA
+    - tc
+    - USD
+    - false
+  - - 216
+    - Chad
+    - TD
+    - TCD
+    - AF
+    - td
+    - XAF
+    - false
+  - - 217
+    - French Southern Territories
+    - TF
+    - ATF
+    - AN
+    - tf
+    - EUR
+    - false
+  - - 218
+    - Togo
+    - TG
+    - TGO
+    - AF
+    - tg
+    - XOF
+    - false
+  - - 219
+    - Thailand
+    - TH
+    - THA
+    - AS
+    - th
+    - THB
+    - false
+  - - 220
+    - Tajikistan
+    - TJ
+    - TJK
+    - AS
+    - tj
+    - TJS
+    - false
+  - - 221
+    - Tokelau
+    - TK
+    - TKL
+    - OC
+    - tk
+    - NZD
+    - false
+  - - 222
+    - East Timor
+    - TL
+    - TLS
+    - OC
+    - tl
+    - USD
+    - false
+  - - 223
+    - Turkmenistan
+    - TM
+    - TKM
+    - AS
+    - tm
+    - TMT
+    - false
+  - - 224
+    - Tunisia
+    - TN
+    - TUN
+    - AF
+    - tn
+    - TND
+    - false
+  - - 225
+    - Tonga
+    - TO
+    - TON
+    - OC
+    - to
+    - TOP
+    - false
+  - - 226
+    - Turkey
+    - TR
+    - TUR
+    - AS
+    - tr
+    - TRY
+    - false
+  - - 227
+    - Trinidad and Tobago
+    - TT
+    - TTO
+    - NA
+    - tt
+    - TTD
+    - false
+  - - 228
+    - Tuvalu
+    - TV
+    - TUV
+    - OC
+    - tv
+    - AUD
+    - false
+  - - 229
+    - Taiwan
+    - TW
+    - TWN
+    - AS
+    - tw
+    - TWD
+    - false
+  - - 230
+    - Tanzania
+    - TZ
+    - TZA
+    - AF
+    - tz
+    - TZS
+    - false
+  - - 231
+    - Ukraine
+    - UA
+    - UKR
+    - EU
+    - ua
+    - UAH
+    - false
+  - - 232
+    - Uganda
+    - UG
+    - UGA
+    - AF
+    - ug
+    - UGX
+    - false
+  - - 233
+    - United States Minor Outlying Islands
+    - UM
+    - UMI
+    - OC
+    - um
+    - USD
+    - false
+  - - 234
+    - United States
+    - US
+    - USA
+    - NA
+    - us
+    - USD
+    - false
+  - - 235
+    - Uruguay
+    - UY
+    - URY
+    - SA
+    - uy
+    - UYU
+    - false
+  - - 236
+    - Uzbekistan
+    - UZ
+    - UZB
+    - AS
+    - uz
+    - UZS
+    - false
+  - - 237
+    - Vatican
+    - VA
+    - VAT
+    - EU
+    - va
+    - EUR
+    - false
+  - - 238
+    - Saint Vincent and the Grenadines
+    - VC
+    - VCT
+    - NA
+    - vc
+    - XCD
+    - false
+  - - 239
+    - Venezuela
+    - VE
+    - VEN
+    - SA
+    - ve
+    - VEF
+    - false
+  - - 240
+    - British Virgin Islands
+    - VG
+    - VGB
+    - NA
+    - vg
+    - USD
+    - false
+  - - 241
+    - U.S. Virgin Islands
+    - VI
+    - VIR
+    - NA
+    - vi
+    - USD
+    - false
+  - - 242
+    - Vietnam
+    - VN
+    - VNM
+    - AS
+    - vn
+    - VND
+    - false
+  - - 243
+    - Vanuatu
+    - VU
+    - VUT
+    - OC
+    - vu
+    - VUV
+    - false
+  - - 244
+    - Wallis and Futuna
+    - WF
+    - WLF
+    - OC
+    - wf
+    - XPF
+    - false
+  - - 245
+    - Samoa
+    - WS
+    - WSM
+    - OC
+    - ws
+    - WST
+    - false
+  - - 246
+    - Yemen
+    - YE
+    - YEM
+    - AS
+    - ye
+    - YER
+    - false
+  - - 247
+    - Mayotte
+    - YT
+    - MYT
+    - AF
+    - yt
+    - EUR
+    - false
+  - - 248
+    - South Africa
+    - ZA
+    - ZAF
+    - AF
+    - za
+    - ZAR
+    - false
+  - - 249
+    - Zambia
+    - ZM
+    - ZMB
+    - AF
+    - zm
+    - ZMK
+    - false
+  - - 250
+    - Zimbabwe
+    - ZW
+    - ZWE
+    - AF
+    - zw
+    - ZWL
+    - false
+  - - 251
+    - Serbia and Montenegro
+    - CS
+    - SCG
+    - EU
+    - cs
+    - RSD
+    - false
+  - - 252
+    - Netherlands Antilles
+    - AN
+    - ANT
+    - NA
+    - an
+    - ANG
+    - false
+
+---
+shoppe_delivery_service_prices:
+  columns:
+  - id
+  - delivery_service_id
+  - code
+  - price
+  - cost_price
+  - tax_rate_id
+  - min_weight
+  - max_weight
+  - created_at
+  - updated_at
+  - country_ids
+  records: 
+  - - 1
+    - 1
+    - Parcel
+    - 5
+    - 4.5
+    - 1
+    - 0
+    - 1
+    - '2016-01-10 14:25:57.647320'
+    - '2016-01-10 14:25:57.647320'
+    - 
+  - - 2
+    - 1
+    - Parcel
+    - 8
+    - 7.5
+    - 1
+    - 1
+    - 5
+    - '2016-01-10 14:25:57.669516'
+    - '2016-01-10 14:25:57.669516'
+    - 
+  - - 3
+    - 1
+    - Parcel
+    - 10
+    - 9.5
+    - 1
+    - 5
+    - 20
+    - '2016-01-10 14:25:57.686742'
+    - '2016-01-10 14:25:57.686742'
+    - 
+  - - 4
+    - 2
+    - Parcel
+    - 27
+    - 24
+    - 1
+    - 0
+    - 1
+    - '2016-01-10 14:25:57.706104'
+    - '2016-01-10 14:25:57.706104'
+    - 
+  - - 5
+    - 2
+    - Parcel
+    - 29
+    - 20
+    - 1
+    - 1
+    - 5
+    - '2016-01-10 14:25:57.712369'
+    - '2016-01-10 14:25:57.712369'
+    - 
+  - - 6
+    - 2
+    - Parcel
+    - 37
+    - 32
+    - 1
+    - 5
+    - 20
+    - '2016-01-10 14:25:57.719659'
+    - '2016-01-10 14:25:57.719659'
+    - 
+
+---
+shoppe_delivery_services:
+  columns:
+  - id
+  - name
+  - code
+  - default
+  - active
+  - created_at
+  - updated_at
+  - courier
+  - tracking_url
+  records: 
+  - - 1
+    - Next Day Delivery
+    - ND16
+    - false
+    - true
+    - '2016-01-10 14:25:57.538197'
+    - '2016-01-10 14:25:57.538197'
+    - AnyCourier
+    - http://trackingurl.com/track/{{consignment_number}}
+  - - 2
+    - Saturday Delivery
+    - NDSA16
+    - false
+    - true
+    - '2016-01-10 14:25:57.697930'
+    - '2016-01-10 14:25:57.697930'
+    - AnyCourier
+    - http://trackingurl.com/track/{{consignment_number}}
+
+---
+shoppe_order_items:
+  columns:
+  - id
+  - order_id
+  - ordered_item_id
+  - ordered_item_type
+  - quantity
+  - unit_price
+  - unit_cost_price
+  - tax_amount
+  - tax_rate
+  - weight
+  - created_at
+  - updated_at
+  records: 
+  - - 4
+    - 2
+    - 6
+    - Shoppe::Product
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-01-10 17:02:00.584867'
+    - '2016-01-10 17:02:00.604251'
+  - - 5
+    - 2
+    - 7
+    - Shoppe::Product
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-01-10 17:02:03.115667'
+    - '2016-01-10 17:02:03.122395'
+
+---
+shoppe_orders:
+  columns:
+  - id
+  - token
+  - first_name
+  - last_name
+  - company
+  - billing_address1
+  - billing_address2
+  - billing_address3
+  - billing_address4
+  - billing_postcode
+  - billing_country_id
+  - email_address
+  - phone_number
+  - status
+  - received_at
+  - accepted_at
+  - shipped_at
+  - created_at
+  - updated_at
+  - delivery_service_id
+  - delivery_price
+  - delivery_cost_price
+  - delivery_tax_rate
+  - delivery_tax_amount
+  - accepted_by
+  - shipped_by
+  - consignment_number
+  - rejected_at
+  - rejected_by
+  - ip_address
+  - notes
+  - separate_delivery_address
+  - delivery_name
+  - delivery_address1
+  - delivery_address2
+  - delivery_address3
+  - delivery_address4
+  - delivery_postcode
+  - delivery_country_id
+  - amount_paid
+  - exported
+  - invoice_number
+  - customer_id
+  records: 
+  - - 2
+    - 44ca6b3f-186a-458a-ab93-fbd23fce0ada
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 77
+    - 
+    - 
+    - building
+    - 
+    - 
+    - 
+    - '2016-01-10 17:02:00.566890'
+    - '2016-01-10 17:02:03.126307'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 127.0.0.1
+    - 
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 0
+    - false
+    - 
+    - 
+
+---
+shoppe_product_attributes:
+  columns:
+  - id
+  - product_id
+  - key
+  - value
+  - position
+  - searchable
+  - created_at
+  - updated_at
+  - public
+  records: 
+  - - 1
+    - 1
+    - Manufacturer
+    - Yealink
+    - 1
+    - true
+    - '2016-01-10 14:26:02.698386'
+    - '2016-01-10 14:26:02.698386'
+    - true
+  - - 2
+    - 1
+    - Model
+    - T20P
+    - 1
+    - true
+    - '2016-01-10 14:26:02.723382'
+    - '2016-01-10 14:26:02.723382'
+    - true
+  - - 3
+    - 1
+    - Colour
+    - Black
+    - 1
+    - true
+    - '2016-01-10 14:26:02.748583'
+    - '2016-01-10 14:26:02.748583'
+    - true
+  - - 4
+    - 1
+    - Lines
+    - '3'
+    - 1
+    - true
+    - '2016-01-10 14:26:02.763086'
+    - '2016-01-10 14:26:02.763086'
+    - true
+  - - 5
+    - 1
+    - Colour Screen?
+    - 'No'
+    - 1
+    - true
+    - '2016-01-10 14:26:02.770869'
+    - '2016-01-10 14:26:02.770869'
+    - true
+  - - 6
+    - 1
+    - Power over ethernet?
+    - 'Yes'
+    - 1
+    - true
+    - '2016-01-10 14:26:02.786751'
+    - '2016-01-10 14:26:02.786751'
+    - true
+  - - 7
+    - 2
+    - Manufacturer
+    - Yealink
+    - 1
+    - true
+    - '2016-01-10 14:26:03.280650'
+    - '2016-01-10 14:26:03.280650'
+    - true
+  - - 8
+    - 2
+    - Model
+    - T22P
+    - 1
+    - true
+    - '2016-01-10 14:26:03.293392'
+    - '2016-01-10 14:26:03.293392'
+    - true
+  - - 9
+    - 2
+    - Colour
+    - Black
+    - 1
+    - true
+    - '2016-01-10 14:26:03.321193'
+    - '2016-01-10 14:26:03.321193'
+    - true
+  - - 10
+    - 2
+    - Lines
+    - '4'
+    - 1
+    - true
+    - '2016-01-10 14:26:03.334548'
+    - '2016-01-10 14:26:03.334548'
+    - true
+  - - 11
+    - 2
+    - Colour Screen?
+    - 'No'
+    - 1
+    - true
+    - '2016-01-10 14:26:03.346726'
+    - '2016-01-10 14:26:03.346726'
+    - true
+  - - 12
+    - 2
+    - Power over ethernet?
+    - 'Yes'
+    - 1
+    - true
+    - '2016-01-10 14:26:03.369354'
+    - '2016-01-10 14:26:03.369354'
+    - true
+  - - 13
+    - 3
+    - Manufacturer
+    - Yealink
+    - 1
+    - true
+    - '2016-01-10 14:26:03.802253'
+    - '2016-01-10 14:26:03.802253'
+    - true
+  - - 14
+    - 3
+    - Model
+    - T26P
+    - 1
+    - true
+    - '2016-01-10 14:26:03.828494'
+    - '2016-01-10 14:26:03.828494'
+    - true
+  - - 15
+    - 3
+    - Colour
+    - Black
+    - 1
+    - true
+    - '2016-01-10 14:26:03.913311'
+    - '2016-01-10 14:26:03.913311'
+    - true
+  - - 16
+    - 3
+    - Lines
+    - '6'
+    - 1
+    - true
+    - '2016-01-10 14:26:03.928950'
+    - '2016-01-10 14:26:03.928950'
+    - true
+  - - 17
+    - 3
+    - Colour Screen?
+    - 'No'
+    - 1
+    - true
+    - '2016-01-10 14:26:03.955027'
+    - '2016-01-10 14:26:03.955027'
+    - true
+  - - 18
+    - 3
+    - Power over ethernet?
+    - 'Yes'
+    - 1
+    - true
+    - '2016-01-10 14:26:03.967689'
+    - '2016-01-10 14:26:03.967689'
+    - true
+  - - 19
+    - 4
+    - Manufacturer
+    - Yealink
+    - 1
+    - true
+    - '2016-01-10 14:26:04.432216'
+    - '2016-01-10 14:26:04.432216'
+    - true
+  - - 20
+    - 4
+    - Model
+    - T46GN
+    - 1
+    - true
+    - '2016-01-10 14:26:04.464500'
+    - '2016-01-10 14:26:04.464500'
+    - true
+  - - 21
+    - 4
+    - Colour
+    - Black
+    - 1
+    - true
+    - '2016-01-10 14:26:04.496976'
+    - '2016-01-10 14:26:04.496976'
+    - true
+  - - 22
+    - 4
+    - Lines
+    - '4'
+    - 1
+    - true
+    - '2016-01-10 14:26:04.526803'
+    - '2016-01-10 14:26:04.526803'
+    - true
+  - - 23
+    - 4
+    - Colour Screen?
+    - 'Yes'
+    - 1
+    - true
+    - '2016-01-10 14:26:04.593212'
+    - '2016-01-10 14:26:04.593212'
+    - true
+  - - 24
+    - 4
+    - Power over ethernet?
+    - 'Yes'
+    - 1
+    - true
+    - '2016-01-10 14:26:04.635775'
+    - '2016-01-10 14:26:04.635775'
+    - true
+  - - 31
+    - 8
+    - Manufacturer
+    - Yealink
+    - 1
+    - true
+    - '2016-01-10 14:26:07.168013'
+    - '2016-01-10 14:26:07.168013'
+    - true
+  - - 32
+    - 8
+    - Model
+    - YHS32
+    - 1
+    - true
+    - '2016-01-10 14:26:07.183704'
+    - '2016-01-10 14:26:07.183704'
+    - true
+  - - 33
+    - 9
+    - Manufacturer
+    - Snom
+    - 1
+    - true
+    - '2016-01-10 14:26:07.721798'
+    - '2016-01-10 14:26:07.721798'
+    - true
+  - - 34
+    - 9
+    - Model
+    - MM2
+    - 1
+    - true
+    - '2016-01-10 14:26:07.778345'
+    - '2016-01-10 14:26:07.778345'
+    - true
+  - - 35
+    - 10
+    - Manufacturer
+    - Snom
+    - 1
+    - true
+    - '2016-01-10 14:26:08.364033'
+    - '2016-01-10 14:26:08.364033'
+    - true
+  - - 36
+    - 10
+    - Model
+    - MM3
+    - 1
+    - true
+    - '2016-01-10 14:26:08.378810'
+    - '2016-01-10 14:26:08.378810'
+    - true
+  - - 37
+    - 11
+    - Manufacturer
+    - Snom
+    - 1
+    - true
+    - '2016-01-10 14:26:09.008560'
+    - '2016-01-10 14:26:09.008560'
+    - true
+  - - 38
+    - 11
+    - Model
+    - W52P
+    - 1
+    - true
+    - '2016-01-10 14:26:09.015082'
+    - '2016-01-10 14:26:09.015082'
+    - true
+  - - 39
+    - 11
+    - Lines
+    - '3'
+    - 1
+    - true
+    - '2016-01-10 14:26:09.065983'
+    - '2016-01-10 14:26:09.065983'
+    - true
+  - - 40
+    - 11
+    - Colour Screen?
+    - 'Yes'
+    - 1
+    - true
+    - '2016-01-10 14:26:09.078411'
+    - '2016-01-10 14:26:09.078411'
+    - true
+  - - 41
+    - 11
+    - Power over ethernet?
+    - 'No'
+    - 1
+    - true
+    - '2016-01-10 14:26:09.090842'
+    - '2016-01-10 14:26:09.090842'
+    - true
+
+---
+shoppe_product_categories:
+  columns:
+  - id
+  - name
+  - permalink
+  - description
+  - created_at
+  - updated_at
+  - parent_id
+  - lft
+  - rgt
+  - depth
+  - ancestral_permalink
+  - permalink_includes_ancestors
+  records: 
+  - - 5
+    - 
+    - 
+    - 
+    - '2016-01-10 15:54:17.501042'
+    - '2016-01-10 16:44:18.109084'
+    - 
+    - 1
+    - 2
+    - 0
+    - clothing
+    - false
+  - - 6
+    - 
+    - 
+    - 
+    - '2016-01-10 15:54:30.247420'
+    - '2016-01-10 16:44:18.109084'
+    - 
+    - 3
+    - 4
+    - 0
+    - clothing
+    - false
+  - - 7
+    - 
+    - 
+    - 
+    - '2016-01-10 15:56:26.469544'
+    - '2016-01-10 16:44:18.109084'
+    - 
+    - 5
+    - 6
+    - 0
+    - clothing
+    - false
+
+---
+shoppe_product_categorizations:
+  columns:
+  - id
+  - product_id
+  - product_category_id
+  records: 
+  - - 12
+    - 5
+    - 5
+
+---
+shoppe_product_category_translations:
+  columns:
+  - id
+  - shoppe_product_category_id
+  - locale
+  - created_at
+  - updated_at
+  - name
+  - permalink
+  - description
+  records: 
+  - - 5
+    - 5
+    - en
+    - '2016-01-10 15:54:17.505901'
+    - '2016-01-10 15:54:17.505901'
+    - Tees
+    - tees
+    - ''
+  - - 6
+    - 6
+    - en
+    - '2016-01-10 15:54:30.252181'
+    - '2016-01-10 15:54:30.252181'
+    - Hoodies
+    - hoodies
+    - ''
+  - - 7
+    - 7
+    - en
+    - '2016-01-10 15:56:26.474940'
+    - '2016-01-10 15:56:26.474940'
+    - Vest Tops
+    - vests
+    - ''
+
+---
+shoppe_product_translations:
+  columns:
+  - id
+  - shoppe_product_id
+  - locale
+  - created_at
+  - updated_at
+  - name
+  - permalink
+  - description
+  - short_description
+  records: 
+  - - 5
+    - 5
+    - en
+    - '2016-01-10 14:26:05.486197'
+    - '2016-01-10 17:15:19.919194'
+    - British Mongrel Air Dash Tee (Unisex)
+    - bmair
+    - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+      qui officia deserunt mollit anim id est laborum.
+    - Air Dash Tee from British Mongrel
+  - - 6
+    - 6
+    - en
+    - '2016-01-10 14:26:05.748977'
+    - '2016-01-10 17:01:43.670527'
+    - Unisex Large - Royal Blue
+    - bm-air-rb-ul
+    - 
+    - 
+  - - 7
+    - 7
+    - en
+    - '2016-01-10 14:26:06.266444'
+    - '2016-01-10 17:00:38.946209'
+    - Unisex Large - Black
+    - bm-air-bk-ul
+    - 
+    - 
+  - - 16
+    - 16
+    - en
+    - '2016-01-10 17:19:57.858714'
+    - '2016-01-10 17:19:57.858714'
+    - Unisex Large - Khaki
+    - BM-AIR-KH-UL
+    - 
+    - 
+
+---
+shoppe_products:
+  columns:
+  - id
+  - parent_id
+  - name
+  - sku
+  - permalink
+  - description
+  - short_description
+  - active
+  - weight
+  - price
+  - cost_price
+  - tax_rate_id
+  - created_at
+  - updated_at
+  - featured
+  - in_the_box
+  - stock_control
+  - default
+  records: 
+  - - 5
+    - 
+    - 
+    - BM-AIR
+    - 
+    - 
+    - 
+    - true
+    - 0
+    - 0
+    - 0
+    - 
+    - '2016-01-10 14:26:05.399779'
+    - '2016-01-10 17:15:19.897830'
+    - true
+    - ''
+    - false
+    - false
+  - - 6
+    - 5
+    - 
+    - BM-AIR-RB-UL
+    - 
+    - 
+    - 
+    - true
+    - 1.35
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-10 14:26:05.743064'
+    - '2016-01-10 17:01:43.667245'
+    - false
+    - 
+    - true
+    - true
+  - - 7
+    - 5
+    - 
+    - BM-AIR-BK-UL
+    - 
+    - 
+    - 
+    - true
+    - 1.35
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-10 14:26:06.252008'
+    - '2016-01-10 17:00:56.296252'
+    - false
+    - 
+    - true
+    - false
+  - - 16
+    - 5
+    - 
+    - BM-AIR-KH-UL
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-10 17:19:57.855348'
+    - '2016-01-10 17:19:57.855348'
+    - false
+    - 
+    - true
+    - false
+
+---
+shoppe_settings:
+  columns:
+  - id
+  - key
+  - value
+  - value_type
+  records: 
+  - - 1
+    - store_name
+    - POP! Tees
+    - String
+  - - 2
+    - email_address
+    - info@poptees.uk
+    - String
+  - - 3
+    - currency_unit
+    - "£"
+    - String
+  - - 4
+    - tax_name
+    - VAT
+    - String
+  - - 5
+    - demo_mode
+    - 'false'
+    - Boolean
+  - - 6
+    - paypal_client_id
+    - AW-NPEJ2L8AL40oRnHKDbkdPoEzlOORNGhgProQefvbp4_aw3apSSyM6uIkofcedM2mZUWU4v-PPpFkl
+    - String
+  - - 7
+    - paypal_client_secret
+    - EOjXxoar6DE5pBOED4SGukUeCU-YioDQybbhAQlHY80Jlu3caLDtAvJoQEvKMoG3GA82xzbA-BQwXv-H
+    - String
+  - - 8
+    - paypal_currency
+    - GBP
+    - String
+  - - 9
+    - paypal_mode
+    - Sandbox
+    - String
+
+---
+shoppe_stock_level_adjustments:
+  columns:
+  - id
+  - item_id
+  - item_type
+  - description
+  - adjustment
+  - parent_type
+  - parent_id
+  - created_at
+  - updated_at
+  records: 
+  - - 5
+    - 6
+    - Shoppe::Product
+    - Initial Stock
+    - 4
+    - 
+    - 
+    - '2016-01-10 14:26:06.172680'
+    - '2016-01-10 14:26:06.172680'
+  - - 6
+    - 7
+    - Shoppe::Product
+    - Initial Stock
+    - 2
+    - 
+    - 
+    - '2016-01-10 14:26:06.608650'
+    - '2016-01-10 14:26:06.608650'
+  - - 15
+    - 16
+    - Shoppe::Product
+    - Initial Stock
+    - 4
+    - 
+    - 
+    - '2016-01-10 17:20:09.541259'
+    - '2016-01-10 17:20:09.541259'
+
+---
+shoppe_tax_rates:
+  columns:
+  - id
+  - name
+  - rate
+  - created_at
+  - updated_at
+  - country_ids
+  - address_type
+  records: 
+  - - 1
+    - Standard VAT
+    - 20
+    - '2016-01-10 14:25:57.489305'
+    - '2016-01-10 14:25:57.489305'
+    - 
+    - billing
+  - - 2
+    - Exempt VAT
+    - 0
+    - '2016-01-10 14:25:57.504783'
+    - '2016-01-10 14:25:57.504783'
+    - 
+    - billing
+
+---
+shoppe_users:
+  columns:
+  - id
+  - first_name
+  - last_name
+  - email_address
+  - password_digest
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Default
+    - Admin
+    - admin@example.com
+    - "$2a$10$gz7eiuMQ41PVtpNNnP9V0uznelzQuRiB5G6ZjFnvEyPTRskRfMDby"
+    - '2016-01-10 14:25:57.358378'
+    - '2016-01-10 14:25:57.358378'
