@@ -45,3 +45,4 @@ namespace :deploy do
   end
 end
 
+Rake::Task[:production].invoke

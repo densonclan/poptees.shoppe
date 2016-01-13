@@ -36,17 +36,6 @@ shoppe_attachments:
     - default_image
     - '2016-01-10 14:26:06.586816'
     - '2016-01-10 14:26:06.586816'
-  - - 13
-    - 5
-    - Shoppe::Product
-    - 658dda0f-2798-487b-a1c5-d86b7f44714b
-    - Bury-Boxing-Club-_Air_.jpg
-    - Bury-Boxing-Club-_Air_.jpg
-    - 435658
-    - image/jpeg
-    - default_image
-    - '2016-01-10 16:58:49.973130'
-    - '2016-01-10 16:58:49.973130'
   - - 14
     - 5
     - Shoppe::Product
@@ -58,6 +47,116 @@ shoppe_attachments:
     - data_sheet
     - '2016-01-10 17:09:17.252906'
     - '2016-01-10 17:09:17.252906'
+  - - 15
+    - 19
+    - Shoppe::Product
+    - ea74b583-ea7c-4386-8df8-c29dd2c6461b
+    - Lucy_Swinton.jpg
+    - Lucy_Swinton.jpg
+    - 316118
+    - image/jpeg
+    - default_image
+    - '2016-01-11 14:15:34.817139'
+    - '2016-01-11 14:15:34.817139'
+  - - 16
+    - 19
+    - Shoppe::Product
+    - 7df9ac08-9cbf-45aa-a09c-f03239617636
+    - awomenschart.jpg
+    - awomenschart.jpg
+    - 44955
+    - image/jpeg
+    - data_sheet
+    - '2016-01-11 14:15:34.820866'
+    - '2016-01-11 14:15:34.820866'
+  - - 17
+    - 5
+    - Shoppe::Product
+    - 40ea979e-11c5-4be8-882f-d8e3559357f0
+    - Gareth-Swinton.jpg
+    - Gareth-Swinton.jpg
+    - 329200
+    - image/jpeg
+    - default_image
+    - '2016-01-11 14:57:44.514512'
+    - '2016-01-11 14:57:44.514512'
+  - - 18
+    - 5
+    - Shoppe::Product
+    - 460de9cc-3080-4f6f-95cd-169652b4b045
+    - Bury-Boxing-Club-_Air_.jpg
+    - Bury-Boxing-Club-_Air_.jpg
+    - 435658
+    - image/jpeg
+    - 
+    - '2016-01-11 14:57:44.518389'
+    - '2016-01-11 14:57:44.518389'
+  - - 19
+    - 5
+    - Shoppe::Product
+    - b6022f4e-b3ca-4825-88fc-dbd352ed4694
+    - Gareth-Swinton.jpg
+    - Gareth-Swinton.jpg
+    - 329200
+    - image/jpeg
+    - 
+    - '2016-01-11 14:58:08.505847'
+    - '2016-01-11 14:58:08.505847'
+  - - 20
+    - 5
+    - Shoppe::Product
+    - 117c8e06-51f2-4f3a-bb06-0375c1583834
+    - Perry2-Manchester.jpg
+    - Perry2-Manchester.jpg
+    - 384581
+    - image/jpeg
+    - 
+    - '2016-01-11 14:59:08.659674'
+    - '2016-01-11 14:59:08.659674'
+  - - 21
+    - 24
+    - Shoppe::Product
+    - 1d85904c-411b-4b2f-8912-bb3215595dc8
+    - Gareth_Swinton.jpg
+    - Gareth_Swinton.jpg
+    - 273000
+    - image/jpeg
+    - default_image
+    - '2016-01-11 15:47:52.862788'
+    - '2016-01-11 15:47:52.862788'
+  - - 22
+    - 24
+    - Shoppe::Product
+    - f8808519-8caf-469e-be82-b94ed0367efb
+    - MensChart.jpg
+    - MensChart.jpg
+    - 44675
+    - image/jpeg
+    - data_sheet
+    - '2016-01-11 15:51:04.658764'
+    - '2016-01-11 15:51:04.658764'
+  - - 23
+    - 31
+    - Shoppe::Product
+    - ce671e75-0a4f-4436-bcb6-3d580747df01
+    - Raven1-Manchester.jpg
+    - Raven1-Manchester.jpg
+    - 370217
+    - image/jpeg
+    - default_image
+    - '2016-01-11 17:13:38.792348'
+    - '2016-01-11 17:13:38.792348'
+  - - 24
+    - 31
+    - Shoppe::Product
+    - af32a417-fca2-4f84-9928-a93f1e9b520e
+    - awomenschart.jpg
+    - awomenschart.jpg
+    - 44955
+    - image/jpeg
+    - data_sheet
+    - '2016-01-11 17:13:38.795448'
+    - '2016-01-11 17:13:38.795448'
 
 ---
 shoppe_countries:
@@ -2726,6 +2825,15 @@ shoppe_product_categorizations:
   - - 12
     - 5
     - 5
+  - - 13
+    - 19
+    - 5
+  - - 14
+    - 24
+    - 5
+  - - 15
+    - 31
+    - 5
 
 ---
 shoppe_product_category_translations:
@@ -2781,15 +2889,11 @@ shoppe_product_translations:
     - 5
     - en
     - '2016-01-10 14:26:05.486197'
-    - '2016-01-10 17:15:19.919194'
+    - '2016-01-11 15:09:06.699965'
     - British Mongrel Air Dash Tee (Unisex)
     - bmair
-    - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-      qui officia deserunt mollit anim id est laborum.
+    - "Air Dash T-Shirt. \r\n\r\nCrew neck, short sleeve t-shirt featuring the Air
+      Dash design in 4 colours.\r\n\r\nFabric - 100% Cotton.\r\n"
     - Air Dash Tee from British Mongrel
   - - 6
     - 6
@@ -2816,6 +2920,188 @@ shoppe_product_translations:
     - '2016-01-10 17:19:57.858714'
     - Unisex Large - Khaki
     - BM-AIR-KH-UL
+    - 
+    - 
+  - - 17
+    - 17
+    - en
+    - '2016-01-11 13:47:52.135424'
+    - '2016-01-11 13:47:52.135424'
+    - Unisex Large - Navy
+    - bm-air-ul-nb
+    - 
+    - 
+  - - 18
+    - 18
+    - en
+    - '2016-01-11 13:49:36.185919'
+    - '2016-01-11 13:49:36.185919'
+    - Unisex XL - Navy
+    - bm-air-uxl-nb
+    - 
+    - 
+  - - 19
+    - 19
+    - en
+    - '2016-01-11 14:09:11.823868'
+    - '2016-01-11 14:57:07.350500'
+    - British Mongrel Desi Dog
+    - bm-desi
+    - British Mongrel Desi Dog Shirt (Ladies)
+    - British Mongrel Desi Dog Shirt (Ladies)
+  - - 20
+    - 20
+    - en
+    - '2016-01-11 14:10:23.401238'
+    - '2016-01-11 14:10:23.401238'
+    - Ladies Small - Purple
+    - BM-DESI-LS-PR
+    - 
+    - 
+  - - 21
+    - 21
+    - en
+    - '2016-01-11 14:11:53.707111'
+    - '2016-01-11 14:11:53.707111'
+    - Ladies Medium  - Purple
+    - BM-DESI-LM-PR
+    - 
+    - 
+  - - 22
+    - 22
+    - en
+    - '2016-01-11 14:12:57.708019'
+    - '2016-01-11 14:12:57.708019'
+    - Ladies Medium - Pink
+    - BM-DESI-LM-PK
+    - 
+    - 
+  - - 23
+    - 23
+    - en
+    - '2016-01-11 14:14:00.102969'
+    - '2016-01-11 14:14:00.102969'
+    - Ladies Large - Purple
+    - BM-DESI-LL-PR
+    - 
+    - 
+  - - 24
+    - 24
+    - en
+    - '2016-01-11 15:47:52.868605'
+    - '2016-01-11 15:47:52.868605'
+    - British Mongrel Freshie Tee
+    - BM-FRESH
+    - "Freshie T-Shirt. Crew neck, short sleeve t-shirt\r\nfeaturing the Freshie design
+      in 2 colours.\r\n\r\nFabric - 100% Cotton.\r\n"
+    - British Mongrel Freshie T-Shirt.
+  - - 25
+    - 25
+    - en
+    - '2016-01-11 15:49:18.818067'
+    - '2016-01-11 15:49:18.818067'
+    - Unisex L - Grey
+    - BM-FRESH-UL-GY
+    - 
+    - 
+  - - 26
+    - 26
+    - en
+    - '2016-01-11 15:52:11.617840'
+    - '2016-01-11 15:52:11.617840'
+    - Unisex L - Navy
+    - BM-FRESH-UL-NV
+    - 
+    - 
+  - - 27
+    - 27
+    - en
+    - '2016-01-11 15:53:05.425456'
+    - '2016-01-11 15:53:05.425456'
+    - Unisex L - White
+    - BM-FRESH-UL-WH
+    - 
+    - 
+  - - 28
+    - 28
+    - en
+    - '2016-01-11 15:53:52.125545'
+    - '2016-01-11 15:53:52.125545'
+    - Unisex XL - Grey
+    - BM-FRESH-UXL-WH
+    - 
+    - 
+  - - 29
+    - 29
+    - en
+    - '2016-01-11 15:59:16.745369'
+    - '2016-01-11 15:59:16.745369'
+    - Unisex XL - Navy
+    - BM-FRESH-UXL-NY
+    - 
+    - 
+  - - 30
+    - 30
+    - en
+    - '2016-01-11 16:00:18.126170'
+    - '2016-01-11 16:00:18.126170'
+    - Unisex XL - White
+    - BM-FRESH-UXL-WT
+    - 
+    - 
+  - - 31
+    - 31
+    - en
+    - '2016-01-11 17:13:38.800468'
+    - '2016-01-11 17:13:38.800468'
+    - British Mongel High Five Tee
+    - BM-HIGH
+    - "High Five T-Shirt. Crew neck, short sleeve \r\nt-shirt featuring the High Five
+      design in 3 colours.\r\n"
+    - 'High Five T-Shirt. '
+  - - 32
+    - 32
+    - en
+    - '2016-01-11 17:15:41.801682'
+    - '2016-01-11 17:15:41.801682'
+    - Ladies M - Lilac
+    - BM-HIGH-LM-LC
+    - 
+    - 
+  - - 33
+    - 33
+    - en
+    - '2016-01-11 17:16:42.640446'
+    - '2016-01-11 17:16:42.640446'
+    - Ladies M - Pink
+    - BM-HIGH-LM-PK
+    - 
+    - 
+  - - 34
+    - 34
+    - en
+    - '2016-01-11 17:17:51.222183'
+    - '2016-01-11 17:17:51.222183'
+    - Ladies M - Purple
+    - BM-HIGH-LM-PP
+    - 
+    - 
+  - - 35
+    - 35
+    - en
+    - '2016-01-11 17:19:31.785347'
+    - '2016-01-11 17:19:31.785347'
+    - Ladies S - Purple
+    - BM-HIGH-LS-PP
+    - 
+    - 
+  - - 36
+    - 36
+    - en
+    - '2016-01-11 17:20:41.950289'
+    - '2016-01-11 17:20:41.950289'
+    - Ladies S - Pink
+    - BM-HIGH-LS-PK
     - 
     - 
 
@@ -2854,7 +3140,7 @@ shoppe_products:
     - 0
     - 
     - '2016-01-10 14:26:05.399779'
-    - '2016-01-10 17:15:19.897830'
+    - '2016-01-11 15:09:06.698296'
     - true
     - ''
     - false
@@ -2909,6 +3195,366 @@ shoppe_products:
     - 2
     - '2016-01-10 17:19:57.855348'
     - '2016-01-10 17:19:57.855348'
+    - false
+    - 
+    - true
+    - false
+  - - 17
+    - 5
+    - 
+    - BM-AIR-UL-NB
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 13:47:52.133429'
+    - '2016-01-11 13:47:52.133429'
+    - false
+    - 
+    - true
+    - false
+  - - 18
+    - 5
+    - 
+    - BM-AIR-UXL-NB
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 13:49:36.184218'
+    - '2016-01-11 13:49:36.184218'
+    - false
+    - 
+    - true
+    - false
+  - - 19
+    - 
+    - 
+    - BM-DESI
+    - 
+    - 
+    - 
+    - true
+    - 0
+    - 0
+    - 0
+    - 
+    - '2016-01-11 14:09:11.820374'
+    - '2016-01-11 14:57:07.348992'
+    - true
+    - ''
+    - false
+    - false
+  - - 20
+    - 19
+    - 
+    - BM-DESI-LS-PR
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 14:10:23.399533'
+    - '2016-01-11 14:10:23.399533'
+    - false
+    - 
+    - true
+    - false
+  - - 21
+    - 19
+    - 
+    - BM-DESI-LM-PR
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 14:11:53.705521'
+    - '2016-01-11 14:11:53.705521'
+    - false
+    - 
+    - true
+    - false
+  - - 22
+    - 19
+    - 
+    - BM-DESI-LM-PK
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 14:12:57.706270'
+    - '2016-01-11 14:12:57.706270'
+    - false
+    - 
+    - true
+    - false
+  - - 23
+    - 19
+    - 
+    - BM-DESI-LL-PR
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 14:14:00.100848'
+    - '2016-01-11 14:14:00.100848'
+    - false
+    - 
+    - true
+    - false
+  - - 24
+    - 
+    - 
+    - BM-FRESH
+    - 
+    - 
+    - 
+    - true
+    - 0
+    - 0
+    - 0
+    - 
+    - '2016-01-11 15:47:52.860492'
+    - '2016-01-11 17:22:08.643013'
+    - true
+    - ''
+    - false
+    - false
+  - - 25
+    - 24
+    - 
+    - BM-FRESH-UL-GY
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 15:49:18.816362'
+    - '2016-01-11 15:49:18.816362'
+    - false
+    - 
+    - true
+    - false
+  - - 26
+    - 24
+    - 
+    - BM-FRESH-UL-NV
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 15:52:11.616184'
+    - '2016-01-11 15:52:11.616184'
+    - false
+    - 
+    - true
+    - false
+  - - 27
+    - 24
+    - 
+    - BM-FRESH-UL-WH
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 15:53:05.423653'
+    - '2016-01-11 15:53:05.423653'
+    - false
+    - 
+    - true
+    - false
+  - - 28
+    - 24
+    - 
+    - BM-FRESH-UXL-WH
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 15:53:52.123877'
+    - '2016-01-11 15:53:52.123877'
+    - false
+    - 
+    - true
+    - false
+  - - 29
+    - 24
+    - 
+    - BM-FRESH-UXL-NY
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 15:59:16.743606'
+    - '2016-01-11 15:59:16.743606'
+    - false
+    - 
+    - true
+    - false
+  - - 30
+    - 24
+    - 
+    - BM-FRESH-UXL-WT
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 16:00:18.124493'
+    - '2016-01-11 16:00:18.124493'
+    - false
+    - 
+    - true
+    - false
+  - - 31
+    - 
+    - 
+    - BM-HIGH
+    - 
+    - 
+    - 
+    - true
+    - 0
+    - 0
+    - 0
+    - 
+    - '2016-01-11 17:13:38.790070'
+    - '2016-01-11 17:21:15.320713'
+    - true
+    - ''
+    - false
+    - false
+  - - 32
+    - 31
+    - 
+    - BM-HIGH-LM-LC
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 17:15:41.799934'
+    - '2016-01-11 17:15:41.799934'
+    - false
+    - 
+    - true
+    - false
+  - - 33
+    - 31
+    - 
+    - BM-HIGH-LM-PK
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 17:16:42.638689'
+    - '2016-01-11 17:16:42.638689'
+    - false
+    - 
+    - true
+    - false
+  - - 34
+    - 31
+    - 
+    - BM-HIGH-LM-PP
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 17:17:51.220124'
+    - '2016-01-11 17:17:51.220124'
+    - false
+    - 
+    - true
+    - false
+  - - 35
+    - 31
+    - 
+    - BM-HIGH-LS-PP
+    - 
+    - 
+    - 
+    - true
+    - 19.99
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 17:19:31.783527'
+    - '2016-01-11 17:19:31.783527'
+    - false
+    - 
+    - true
+    - false
+  - - 36
+    - 31
+    - 
+    - BM-HIGH-LS-PK
+    - 
+    - 
+    - 
+    - true
+    - 0.2
+    - 19.99
+    - 5
+    - 2
+    - '2016-01-11 17:20:41.948352'
+    - '2016-01-11 17:20:41.948352'
     - false
     - 
     - true
@@ -2999,6 +3645,186 @@ shoppe_stock_level_adjustments:
     - 
     - '2016-01-10 17:20:09.541259'
     - '2016-01-10 17:20:09.541259'
+  - - 16
+    - 17
+    - Shoppe::Product
+    - Initial Stock
+    - 2
+    - 
+    - 
+    - '2016-01-11 13:48:17.114277'
+    - '2016-01-11 13:48:17.114277'
+  - - 17
+    - 18
+    - Shoppe::Product
+    - Initial Stock
+    - 5
+    - 
+    - 
+    - '2016-01-11 13:49:54.939861'
+    - '2016-01-11 13:49:54.939861'
+  - - 18
+    - 20
+    - Shoppe::Product
+    - Initial Stock
+    - 1
+    - 
+    - 
+    - '2016-01-11 14:10:37.150001'
+    - '2016-01-11 14:10:37.150001'
+  - - 19
+    - 21
+    - Shoppe::Product
+    - Initial Stck
+    - 2
+    - 
+    - 
+    - '2016-01-11 14:12:11.427971'
+    - '2016-01-11 14:12:11.427971'
+  - - 20
+    - 22
+    - Shoppe::Product
+    - INITIAL STOCK
+    - 3
+    - 
+    - 
+    - '2016-01-11 14:13:15.249453'
+    - '2016-01-11 14:13:15.249453'
+  - - 21
+    - 23
+    - Shoppe::Product
+    - INITIAL STOCK
+    - 4
+    - 
+    - 
+    - '2016-01-11 14:14:17.729351'
+    - '2016-01-11 14:14:17.729351'
+  - - 22
+    - 25
+    - Shoppe::Product
+    - Initial stock
+    - 2
+    - 
+    - 
+    - '2016-01-11 15:49:32.489675'
+    - '2016-01-11 15:49:32.489675'
+  - - 23
+    - 26
+    - Shoppe::Product
+    - Initial Stock
+    - 2
+    - 
+    - 
+    - '2016-01-11 15:54:26.031792'
+    - '2016-01-11 15:54:26.031792'
+  - - 24
+    - 27
+    - Shoppe::Product
+    - Initial Stock
+    - 1
+    - 
+    - 
+    - '2016-01-11 15:54:40.903453'
+    - '2016-01-11 15:54:40.903453'
+  - - 25
+    - 28
+    - Shoppe::Product
+    - Initial Stock
+    - 5
+    - 
+    - 
+    - '2016-01-11 15:54:51.960785'
+    - '2016-01-11 15:54:51.960785'
+  - - 26
+    - 26
+    - Shoppe::Product
+    - adjust
+    - -1
+    - 
+    - 
+    - '2016-01-11 15:55:39.541586'
+    - '2016-01-11 15:55:39.541586'
+  - - 27
+    - 27
+    - Shoppe::Product
+    - Adjust
+    - 4
+    - 
+    - 
+    - '2016-01-11 15:56:42.413310'
+    - '2016-01-11 15:56:42.413310'
+  - - 28
+    - 28
+    - Shoppe::Product
+    - adjust
+    - -3
+    - 
+    - 
+    - '2016-01-11 15:57:03.890405'
+    - '2016-01-11 15:57:03.890405'
+  - - 29
+    - 29
+    - Shoppe::Product
+    - 'Initial Stock '
+    - 4
+    - 
+    - 
+    - '2016-01-11 15:59:29.322962'
+    - '2016-01-11 15:59:29.322962'
+  - - 30
+    - 30
+    - Shoppe::Product
+    - Initial Stock
+    - 3
+    - 
+    - 
+    - '2016-01-11 16:00:33.695907'
+    - '2016-01-11 16:00:33.695907'
+  - - 31
+    - 32
+    - Shoppe::Product
+    - Initial Stock
+    - 2
+    - 
+    - 
+    - '2016-01-11 17:15:56.842658'
+    - '2016-01-11 17:15:56.842658'
+  - - 32
+    - 33
+    - Shoppe::Product
+    - Initial Stock
+    - 3
+    - 
+    - 
+    - '2016-01-11 17:16:55.477423'
+    - '2016-01-11 17:16:55.477423'
+  - - 33
+    - 34
+    - Shoppe::Product
+    - Initial Stock
+    - 1
+    - 
+    - 
+    - '2016-01-11 17:18:48.607683'
+    - '2016-01-11 17:18:48.607683'
+  - - 34
+    - 35
+    - Shoppe::Product
+    - Initial Stcok
+    - 1
+    - 
+    - 
+    - '2016-01-11 17:20:02.780516'
+    - '2016-01-11 17:20:02.780516'
+  - - 35
+    - 36
+    - Shoppe::Product
+    - Initial Stock
+    - 6
+    - 
+    - 
+    - '2016-01-11 17:20:53.247506'
+    - '2016-01-11 17:20:53.247506'
 
 ---
 shoppe_tax_rates:
