@@ -16,7 +16,7 @@ gem 'yaml_db'
 gem "shoppe-notification"
 gem 'mail_form'
 gem 'simple_form'
-
+gem "shoppe-stripe", require: "shoppe/stripe"
 
 group :development do
   gem 'capistrano'

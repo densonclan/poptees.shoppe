@@ -60,6 +60,8 @@ GEM
     coffee-script-source (1.9.1.1)
     colorize (0.7.7)
     daemons (1.2.3)
+    domain_name (0.5.25)
+      unf (>= 0.0.5, < 1.0.0)
     dynamic_form (1.1.4)
     erubis (2.7.0)
     eventmachine (1.0.7)
@@ -184,6 +186,8 @@ GEM
     haml (4.0.7)
       tilt
     hike (1.2.3)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     i18n (0.7.0)
     inflecto (0.0.2)
     ipaddress (0.8.2)
@@ -211,6 +215,7 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.0.2)
+    netrc (0.11.0)
     nifty-dialog (1.0.7)
     nifty-key-value-store (1.0.2)
     nifty-utils (1.0.9)
@@ -257,6 +262,10 @@ GEM
       i18n
       polyamorous (~> 1.1)
     redcarpet (3.3.2)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     roo (1.13.2)
       nokogiri
       rubyzip
@@ -292,6 +301,10 @@ GEM
     shoppe-paypal (1.2.2)
       paypal-sdk-rest
       shoppe (> 1, < 2)
+    shoppe-stripe (1.2.2)
+      coffee-rails (~> 4)
+      shoppe (> 0.0.9, < 2)
+      stripe (~> 1.8.7)
     simple_form (3.2.1)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
@@ -311,6 +324,9 @@ GEM
       colorize (>= 0.7.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    stripe (1.8.8)
+      multi_json (>= 1.0.4, < 2)
+      rest-client (~> 1.4)
     thin (1.6.3)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0)
@@ -323,6 +339,9 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.1)
     uuidtools (2.1.5)
     xml-simple (1.1.5)
     yaml_db (0.3.0)
@@ -346,6 +365,7 @@ DEPENDENCIES
   shoppe (~> 1.1.2)
   shoppe-notification
   shoppe-paypal
+  shoppe-stripe
   simple_form
   sqlite3
   thin
