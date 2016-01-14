@@ -92,25 +92,18 @@ class OrdersController < ApplicationController
     if request.patch?
       redirect_to checkout_confirmation_path
     end
-    if params[:success] == "true" && params[:PayerID].present?
-      @order.accept_paypal_payment(params[:paymentId], params[:token], params[:PayerID])
-    end
   end
   
 
   def confirmation
-    unless current_order.confirming?
-      redirect_to checkout_path
-      return
-    end
-    
-    if request.patch?
+
+    if params[:success] == "true" && params[:PayerID].present?
       begin
-        current_order.success!
-        # This payment method should usually be called in a payment module or elsewhere but for the demo
-        # we are adding a payment to the order straight away.
-        session[:order_id] = nil
-        redirect_to root_path, :notice => "Order has been placed!"
+        current_order.confirm!
+        @order = Shoppe::Order.find(current_order.id)
+        @order.accept_paypal_payment(params[:paymentId], params[:token], params[:PayerID])
+        
+        #session[:order_id] = nil
       rescue Shoppe::Errors::PaymentDeclined => e
         flash[:alert] = "Payment was declined by the bank. #{e.message}"
         redirect_to checkout_path
@@ -119,11 +112,13 @@ class OrdersController < ApplicationController
         redirect_to checkout_path
       end
     end
+
+
   end
 
   def paypal
     @order = Shoppe::Order.find(session[:order_id])
-    url = @order.redirect_to_paypal(checkout_payment_url(success: true), checkout_payment_url(success: false))
+    url = @order.redirect_to_paypal(checkout_confirmation_url(success: true), checkout_confirmation_url(success: false))
     redirect_to url
   end
     

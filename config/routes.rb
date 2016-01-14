@@ -37,7 +37,11 @@ Rails.application.routes.draw do
   match 'checkout/confirm' => 'orders#confirmation', :as => 'checkout_confirmation', :via => [:get, :patch]
   get "checkout/paypal", to: "orders#paypal"
 
-  #
+ # Contact
+  match '/contacts', to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
+
+   #
   # Static pages
   #
   get ':action', :controller => 'pages', :as => 'page'

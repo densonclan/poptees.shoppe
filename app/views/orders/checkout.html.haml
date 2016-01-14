@@ -8,9 +8,6 @@
     Fantastic! You're ready to place your order, just follow the instructions below and
     we'll get your products shipped to you as quickly as we can.
 
-  %h3 Review the products in your shopping bag
-  = render 'shared/order_items', :order => @order
-
   - unless @order.delivery_required? && @order.delivery_service.nil?
     %h3 Complete your details below to complete your order
     

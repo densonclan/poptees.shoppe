@@ -1,0 +1,13 @@
+%h3 Your Order Number: #{"%.5d" % order.id}
+%table.orderItems
+  %thead
+    %tr
+      %td Qty
+      %td Item
+  %tbody
+    - for item in order.order_items
+      %tr
+        %td.quantity
+          = item.quantity
+        %td.product
+          = item.ordered_item.full_name

@@ -11,4 +11,8 @@
       %p.submit= submit_tag "Place Order", :class => 'order'
 
   - else 
-    %h2 Thank You!
+    %h2 Thank You - Your order has been placed!
+    %hr
+    = render 'shared/order_complete', :order => @order
+- session.delete(:order_id)
+
