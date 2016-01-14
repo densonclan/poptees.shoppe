@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/home/barry/poptees.shoppe/ImageMagick-6.9.3-0'
+top_builddir='/home/barry/poptees.shoppe/ImageMagick-6.9.3-0'
+
+set -a
+COMPARE="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/utilities/compare"
+COMPOSITE="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/utilities/composite"
+CONJURE="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/utilities/conjure"
+CONVERT="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/utilities/convert"
+DISPLAY="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/utilities/display"
+IDENTIFY="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/utilities/identify"
+MONTAGE="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/utilities/montage" 
+VALIDATE="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/tests/validate"
+DRAWTEST="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/tests/drawtest"
+WANDTEST="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/tests/wandtest"
+LD_LIBRARY_PATH="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/coders"
+MAGICK_CONFIGURE_PATH="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/config:/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/config"
+MAGICK_FILTER_MODULE_PATH="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/filters"
+PATH="/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/utilities:/home/barry/poptees.shoppe/ImageMagick-6.9.3-0/tests:${PATH}"
+set +a
