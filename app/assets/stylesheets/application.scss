@@ -286,6 +286,7 @@ section.content {
 		//
 		div.checkout {
 			p.secure {float:right; margin-top:10px;color:#ee9200; background:image-url('secure.svg') no-repeat 0 1px; background-size:12px; padding-left:18px; font-size:0.8em;}
+			p.paypal {float:right; }
 			
 			h2 { font-size:2.0em;color:#e05915;}
 			p.intro { margin:15px 0; line-height:1.5; margin-bottom:25px; }

@@ -4,25 +4,11 @@
 .checkout
   %p.secure Secure connection
 
-  = shoppe_stripe_javascript
-  %h2 Make your payment
-  - if params[:success] == "true" && params[:PayerID].present?
-    %p Payment will be processed by PayPal
-    = link_to image_tag("checkoutwithpaypal.png"), checkout_paypal_path
-  - else
-    = form_tag nil, class: "stripeForm" do
-      = hidden_field_tag "stripe_token", nil, "data-stripe" => "token"
-      %dl
-        %dt= label_tag 'card_number'
-        %dd= text_field_tag 'card_number', nil, name: nil, "data-stripe" => "number"
-        %dt= label_tag 'expiry_month'
-        %dd= text_field_tag 'expiry_month', nil, name: nil, "data-stripe" => "exp_month"
-        %dt= label_tag 'expiry_year'
-        %dd= text_field_tag 'expiry_year', nil, name: nil, "data-stripe" => "exp_year"
-        %dt= label_tag 'security_code'
-        %dd= text_field_tag 'security_code', nil, name: nil, "data-stripe" => "cvc"
-        %dd= submit_tag "Continue"
-    %hr/
-    = link_to image_tag("checkoutwithpaypal.png"), checkout_paypal_path
-    = shoppe_stripe_javascript 
+  %h3 Review the products in your shopping bag
+  = render 'shared/order_items', :order => @order
 
+   
+  %p.paypal
+    =link_to image_tag("checkoutwithpaypal.png"), checkout_paypal_path
+  %h3 Make your payment
+ 
