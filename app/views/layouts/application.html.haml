@@ -26,7 +26,7 @@
             %li= link_to "Why shop with us?", page_path(:why), :nav_item => :why
             %li= link_to "FAQs", page_path(:faqs), :nav_item => :shipping
             %li= link_to "Shipping", page_path(:shipping), :nav_item => :faqs
-            %li= link_to "Get in touch", page_path(:contact), :nav_item => :contact
+            %li= link_to "Get in touch", contacts_path, :nav_item => :contact
             %li= link_to "View my bag", basket_path, :nav_item => :bag
           %h1= link_to Shoppe.settings.store_name, root_path
         
@@ -71,7 +71,7 @@
         .callUs
           %p Got any questions? Call us today:
           %p.number 0151 200 0343
-          %p We're open 9am to 5pm, Monday to Friday.
+          %p 24 Hour Answerphone.
           
           / Links to social media
           %ul.social

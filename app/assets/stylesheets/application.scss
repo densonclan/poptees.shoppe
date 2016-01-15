@@ -1,4 +1,6 @@
 //= require reset
+@import "font-awesome.min.css";
+@import "budicon.css";
 
 $font: Lato, Arial, sans-serif;
 
@@ -160,7 +162,7 @@ section.content {
 			font-size:0.9em;
 			h2 { font-size:2.0em;color:#e05915;}
 			h3 { font-size:1.5em;color:#e05915;}
-			p { margin:25px 0; line-height:1.8;}
+			p { margin:15px 0; line-height:1.8;}
 			ul, ol { margin:25px 0; line-height:1.8; margin-left:45px;}
 			ul li { list-style:square; }
 		}
@@ -729,4 +731,220 @@ background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
 text-align: left;
+}
+
+div.boxed {
+	background:#F1F1F1;
+	padding:15px;
+	border-radius:8px;
+	height: 190px;
+	}
+
+p.boxed { margin:10px 0; line-height:1.8;}
+.simple_form {
+	background:#F1F1F1;
+	padding:15px;
+	border-radius:8px;
+	height: 190px;
+
+
+  div.input {
+  	margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin: 2px 10px;
+  }
+}
+
+//  CONTACT PAGE 
+
+.contact-page-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+    max-width: 960px;
+    min-width: 960px;
+}
+
+//colors
+$color_mountain_mist_approx: #999;
+$color_tangaroa_approx: #04213f;
+$white: #fff;
+$color_st_tropaz_approx: #286090;
+$color_chathams_blue_approx: #204d74;
+$color_celeste_approx: #cccccc;
+$color_endeavour_approx: #004fa3;
+$color_mercury_approx: #e6e6e6;
+
+//fonts
+$font_0: Open Sans;
+$font_1: sans-serif;
+$font_2: Helvetica W01 Bold;
+
+//@extend-elements
+//original selectors
+//.contact-gf input, .contact-gf textarea
+%extend_1 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	border: 1px solid $color_celeste_approx;
+	padding: 3px 5px;
+}
+
+
+.quotation {
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 200;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: $color_mountain_mist_approx;
+}
+.two-thirds-left-column {
+	float: left;
+	width: 74%;
+	text-align: left;
+}
+.third-right-column {
+	float: right;
+	width: 25%;
+}
+.contact-gf {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	input[type=submit] {
+		background-color: $color_tangaroa_approx;
+		border-color: $color_tangaroa_approx;
+		color: $white;
+		font-family: $font_0, $font_1;
+		font-size: 18px;
+		font-weight: bold;
+		padding: 10px 16px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		outline: none;
+		margin-top: 20px;
+		&:hover {
+			background-color: $color_st_tropaz_approx;
+			border-color: $color_chathams_blue_approx;
+		}
+	}
+	input[type=checkbox] {
+		margin-right: 5px;
+	}
+	input {
+		@extend %extend_1;
+
+	}
+	textarea {
+		@extend %extend_1;
+		margin-bottom: 15px;
+		resize: vertical;
+	}
+	label {
+		font-size: 14px;
+		font-family: $font_2, $font_1;
+		color: $color_endeavour_approx;
+		display: block;
+		margin-bottom: 8px;
+	}
+}
+.bootstrap-col-padding-zero {
+	padding-left: 0;
+	padding-right: 0;
+}
+.font-indent {
+	margin-bottom: 20px;
+}
+.contact-description {
+	border-left: 1px solid $color_mercury_approx;
+}
+.form-group {		margin-top: 5x; margin-bottom: 5px;}
+.contact-form-container {
+	width: 46%;
+	float: left;
+	margin: 2%;
+	display: inline-block;
+	label {
+		width: 100%;
+	}
+	input {
+		width: 100%;
+
+	}
+}
+.contact-form-container2 {
+	width: 96%;
+	margin: 2%;
+	float: left;
+	padding-bottom: 40px;
+	textarea {
+		width: 100%;
+	}
+	input {
+		width: 100%;
+	}
+	label {
+		width: 100%;
+	}
+}
+.container-full-width {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+@media(min-width: 768px) {
+	.container-full-width {
+		width: 750px;
+	}
+}
+@media(min-width: 992px) {
+	.container-full-width {
+		width: 970px;
+	}
+}
+@media(min-width: 1200px) {
+	.container-full-width {
+		width: 940px;
+	}
+}
+
+.contact-three-cols {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+
+
+.contact-circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #e05915;
+    margin: 0 auto;
+    display: table;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3 ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+}
+
+.contact-circle i {
+    font-size: 38px;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
 }

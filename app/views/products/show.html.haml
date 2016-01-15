@@ -32,8 +32,9 @@
               %div.in_the_box
                 %h3 What's in the box?
                 = markdown @product.in_the_box
-          %li.item.ask= mail_to Shoppe.settings.email_address, "Ask us a question about this", :subject => "Question about the #{@product.name}"
+          %li.item.ask= link_to "Ask a question about this product", contacts_path( :subject => "Question about the #{@product.name}" )
   - else
+
     .optionsBox
       .top
         %p.price= number_to_currency @product.price
@@ -59,10 +60,7 @@
                 %div.in_the_box
                   %h3 What's in the box?
                   = markdown @product.in_the_box
-            %li.item.ask= mail_to Shoppe.settings.email_address, "Ask us a question about this", :subject => "Question about the #{@product.name}"
-
-    %hr
-
+                  %li.item.ask= link_to "Ask a question about this product", contacts_path( :subject => "Question about the #{@product.name}" )
   - unless @attributes.empty?
     %table.attributes
       - for attribute in @attributes

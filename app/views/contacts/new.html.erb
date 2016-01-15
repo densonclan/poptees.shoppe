@@ -1,16 +1,59 @@
-<div align="center">
-  <h3>Send A message to Us</h3>
+<%- @page_title = "Contact Us" %>
+  <div class='content'>
+    <h2 >Get in Touch</h2>
+  
+  
+  <p class="quotation"><i class=" fa fa-quote-left" style="font-size: 32px; margin-top: 40px; color: #999;"></i>  At <strong>POP! Tees</strong> we know how busy you are, that’s why we’ve got different ways to get in touch so you can use the most convenient one. We love to hear from you, so why don’t you drop us a message?   <i class=" fa fa-quote-right" style="font-size: 32px; margin-bottom: 40px; color: #999;"></i></p>
+ 
+  <div class="contact-page-container">
+    <div class="contact-three-cols">
+      <div class="contact-circle">
+        <i class="fa fa-paper-plane pi"></i>
+      </div>
+      <h3 class="contact-title">Send Us A Message</h3>
+      <br/>
+       <%= minimal_form_for(@contact, html: { class: 'form-horizontal' }, 
+       wrapper: :horizontal_input_group, 
+       wrapper_mappings: {check_boxes: :horizontal_radio_and_checkboxes, 
+       radio_buttons: :horizontal_radio_and_checkboxes, 
+       file: :horizontal_file_input, 
+       boolean: :horizontal_boolean }) do |f| %>
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+       <div> 
+         <%= f.input :name, :required => true, :input_html => {:maxlength => 40, :size => 21} %>
+         <%= f.input :email, :required => true, :input_html => {:maxlength => 40, :size => 21} %>
+         <%= f.input :subject, :required => true, :input_html => {:maxlength => 40, :size => 21, :value => params[:product_name]} %>
+         <%= f.input :message, :as => :text, :required => true, input_html: { :rows => 4} %>
+         <%= f.button :submit, 'Send Message' %>
+       </div>
+      <% end %>
+
     </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+
+    <div class="contact-three-cols">
+      <div class="contact-circle" style="">
+        <i class="fa fa-phone pi"></i>
+      </div>
+      <h3 class="contact-title">Give Us A Call</h3>
+      <br/>
+      <div class="boxed">
+        <p>Give us a call anytime on 0151 200 0343, and we'll do our best to help.</p>
+
+        <p>If we're busy just leave a message and we'll call you right back!</p>
+      </div>
     </div>
-  <% end %>
+
+    <div class="contact-three-cols">
+      <div class="contact-circle">
+        <i class="fa fa-users pi"></i>
+      </div>
+      <h3 class="contact-title">Live Chat</h3>
+      <br/>
+      <div class="boxed">
+        <p>We're sorry but all our operators are busy at the moment.</p>
+   
+        <p>Please try later or contact us using one of the other methods.</p>
+      </div>
+    </div>
+  </div>
 </div>

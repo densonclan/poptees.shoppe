@@ -1,0 +1,21 @@
+%ul.reasons
+  %li.support
+    %h4 Free personalisation
+    %p All our shirts are available with free personalisation, just fill in the details when you order.
+  %li.quality
+    %h4 Quality assurance
+    %p We check all the produts we ship so you can rely on us.
+  %li.delivery
+    %h4 Next day delivery
+    %p Order before 4pm and your order will be with you the next business day.
+%p 
+= minimal_form_for(@contact, html: { class: 'form-horizontal' }, wrapper: :horizontal_input_group, wrapper_mappings: {check_boxes: :horizontal_radio_and_checkboxes, radio_buttons: :horizontal_radio_and_checkboxes, file: :horizontal_file_input, boolean: :horizontal_boolean }) do |f| 
+  %h3 Send us a message
+  %div 
+    = f.input :name, :required => true, :input_html => {:maxlength => 40, :size => 21} 
+    = f.input :email, :required => true, :input_html => {:maxlength => 40, :size => 21} 
+    = f.input :subject,:required => true, :input_html => {:maxlength => 40, :size => 21} 
+    = f.input :message, :as => :text, :required => true, input_html: { :rows => 4}
+    = f.button :submit, 'Send Message' 
+    %hr
+%end
