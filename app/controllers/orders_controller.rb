@@ -1,12 +1,12 @@
 class OrdersController < ApplicationController
-  
+
   before_filter(only: [:paypal, :payment]) { Shoppe::Paypal.setup_paypal }
   before_filter(:except => :status) { redirect_to root_path unless has_order? }
-  
+
   def status
     @order = Shoppe::Order.find_by_token!(params[:token])
   end
-  
+
   def destroy
     current_order.destroy
     session[:order_id] = nil
@@ -18,7 +18,7 @@ class OrdersController < ApplicationController
       end
     end
   end
-  
+
   def remove_item
     item = current_order.order_items.find(params[:order_item_id])
     if current_order.order_items.count == 1
@@ -34,7 +34,7 @@ class OrdersController < ApplicationController
       end
     end
   end
-  
+
   def change_item_quantity
     item = current_order.order_items.find(params[:order_item_id])
     request.delete? ? item.decrease! : item.increase!
@@ -48,7 +48,7 @@ class OrdersController < ApplicationController
           render :json => {:status => 'complete', :items => render_to_string(:partial => 'shared/order_items.html', :locals => {:order => current_order})}
         end
       end
-    end    
+    end
   rescue Shoppe::Errors::NotEnoughStock => e
     respond_to do |wants|
       wants.html { redirect_to request.referer, :alert => "Unfortunately, we don't have enough stock. We only have #{e.available_stock} items available at the moment. Please get in touch though, we're always receiving new stock." }
@@ -73,18 +73,24 @@ class OrdersController < ApplicationController
       end
     end
   end
-  
+
   def checkout
     @order = Shoppe::Order.find(current_order.id)
     if request.patch?
-      @order.attributes = params[:order].permit(:first_name, :last_name, :company, :billing_address1, :billing_address2, :billing_address3, :billing_address4, :billing_country_id, :billing_postcode, :email_address, :phone_number, :delivery_name, :delivery_address1, :delivery_address2, :delivery_address3, :delivery_address4, :delivery_postcode, :delivery_country_id, :separate_delivery_address)
+      @order.attributes = params[:order].permit(:first_name, :last_name, :company, :billing_address1, :billing_address2, :billing_address3, :billing_address4, :billing_country_id, :billing_postcode, :email_address, :phone_number, :delivery_name, :delivery_address1, :delivery_address2, :delivery_address3, :delivery_address4, :delivery_postcode, :delivery_country_id, :separate_delivery_address, :customer_id)
       @order.ip_address = request.ip
-      if @order.proceed_to_confirm
-        redirect_to checkout_payment_path
-      end
+      if Shoppe::Customer.where(email: @order.email_address).present?
+        customer = Shoppe::Customer.find_by_email @order.email_address
+       else
+        customer = Shoppe::Customer.create first_name: @order.first_name, last_name: @order.last_name, email: @order.email_address, phone: @order.phone_number, company: @order.company
+     end
+     @order.customer_id = customer.id
+     if @order.proceed_to_confirm
+       redirect_to checkout_payment_path
+     end
     end
   end
-  
+
 
 
   def payment
@@ -93,7 +99,7 @@ class OrdersController < ApplicationController
       redirect_to checkout_confirmation_path
     end
   end
-  
+
 
   def confirmation
 
@@ -102,7 +108,7 @@ class OrdersController < ApplicationController
         current_order.confirm!
         @order = Shoppe::Order.find(current_order.id)
         @order.accept_paypal_payment(params[:paymentId], params[:token], params[:PayerID])
-        
+
         #session[:order_id] = nil
       rescue Shoppe::Errors::PaymentDeclined => e
         flash[:alert] = "Payment was declined by the bank. #{e.message}"
@@ -121,5 +127,5 @@ class OrdersController < ApplicationController
     url = @order.redirect_to_paypal(checkout_confirmation_url(success: true), checkout_confirmation_url(success: false))
     redirect_to url
   end
-    
+
 end

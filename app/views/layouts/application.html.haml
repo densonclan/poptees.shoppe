@@ -8,10 +8,10 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     = yield :head
   %body
-    
-    
+
+
     / The main header displayed on all pages
-    / Sometimes will be shorted as the page content dictates. 
+    / Sometimes will be shorted as the page content dictates.
     %header.main{:class => @full_header ? 'full' : 'basic'}
       .inner
         / Primary navigation
@@ -29,17 +29,17 @@
             %li= link_to "Get in touch", contacts_path, :nav_item => :contact
             %li= link_to "View my bag", basket_path, :nav_item => :bag
           %h1= link_to Shoppe.settings.store_name, root_path
-        
+
         - if @full_header
-          %h2 Welcome to <em>POP! Tees</em>.
+          %h2 Retro Lifestyle Essentials
           %p.intro Modern fashion for the retro at heart!
-      
+
       - if @full_header
         .bar
           .inner
             %p.call Call us today on <b>0151 200 0343</b> if you have any questions.
-    
-    
+
+
     / Main content section
     %section.content
       .inner
@@ -51,15 +51,15 @@
           - else
             = render 'shared/basket'
             = render 'shared/reasons'
-      
+
         / Primary section
         %section.primary
           = yield
-      
+
     / Footer
     %footer.main
       .inner
-      
+
         / Useful footer links (policies etc...)
         %ul.links
           %li= link_to "Terms & Conditions", page_path(:terms)
@@ -67,12 +67,12 @@
           %li= link_to "Returns policy", page_path(:returns)
           %li= link_to "Frequently asked questions", page_path(:faqs)
           %li= link_to "Cookie policy", page_path(:cookies)
-      
+
         .callUs
           %p Got any questions? Call us today:
           %p.number 0151 200 0343
           %p 24 Hour Answerphone.
-          
+
           / Links to social media
           %ul.social
             %li.twitter= link_to "Twitter", 'http://twitter.com/rewindfans_com'
@@ -81,7 +81,7 @@
             %li.linkedin= link_to "Linked In", "http://linkedin.com"
             %li.vimeo= link_to "Vimeo", "http://vimeo.com"
             %li.youtube= link_to "Youtube", "http://youtube.com"
-      
+
         / Copyright & trademark information
         .copyright
           %p &copy; #{Date.today.year} PopTees. All Rights Reserved.
@@ -92,4 +92,3 @@
             47 Withens Lane,  <br/>
             Wallasey,  <br/>
             Merseyside CH44 1BB.<br />
-          

@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/VictorBersy/budicon-rails.git
-  revision: 8d2c9c3efa9ae45174b72b47e7c7dc3016d94f67
-  specs:
-    budicon-rails (0.0.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -358,7 +352,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  budicon-rails!
   capistrano
   coffee-rails (~> 4.0.0)
   faker
