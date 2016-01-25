@@ -17,6 +17,7 @@ gem "shoppe-notification"
 gem 'mail_form'
 gem 'simple_form'
 gem "shoppe-stripe", require: "shoppe/stripe"
+gem 'owlcarousel-rails'
 
 group :development do
   gem 'capistrano'
