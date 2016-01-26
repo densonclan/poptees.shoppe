@@ -4,11 +4,13 @@
 
 #owl-demo.owl-carousel.owl-theme
   .item
-    %img{:alt => "Colour It Up - 80s Style", :src => "assets/fullimage1-8d70c8a5be0ee4c5ba7bead67349fc00.jpg"}/
+    = image_tag("bm_slide.jpg", :alt => "British Mongrel Collection")
   .item
-    %img{:alt => "Modern Fashion For The Retro At Heart", :src => "assets/fullimage2-5455a752f6f190d42381b99aa1f6736e.jpg"}/
+    = image_tag("fullimage1.jpg", :alt => "Colour It Up - 80s Style")
   .item
-    %img{:alt => "Roller Skates", :src => "assets/fullimage3-4db1d43524fcd835305fb7c595673820.jpg"}/
+    = image_tag("fullimage2.jpg", :alt => "Modern Fashion For The Retro At Heart")
+  .item
+    = image_tag("fullimage3.jpg", :alt => "Modern Retro - Love it - Live It")
 :javascript
   $(".owl-carousel").owlCarousel({ navigation : false, autoPlay : 5000, pagination : false, singleItem:true });
 
