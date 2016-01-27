@@ -6,6 +6,7 @@
     = javascript_include_tag :application
     = csrf_meta_tags
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     = yield :head
   %body
 
@@ -30,7 +31,7 @@
             %li= link_to "Get in touch", contacts_path, :nav_item => :contact
             %li= link_to "View my bag", basket_path, :nav_item => :bag
         - if @full_header
-          %h2 Retro Lifestyle Essentials
+          %h2 Retro lifestyle essentials
 
       - if @full_header
         .bar
