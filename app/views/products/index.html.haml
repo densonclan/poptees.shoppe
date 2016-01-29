@@ -5,6 +5,6 @@
   - unless @product_category.description.blank?
     %p.intro= @product_category.description
   - if @products.empty?
-    %p.noProducts There are no products in this category
+    %p.noProducts There are no products availabe in this collection - please check again soon.
   - else
     = render 'shared/product_list', :products => @products
