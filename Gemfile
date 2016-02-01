@@ -18,6 +18,7 @@ gem 'mail_form'
 gem 'simple_form'
 gem "shoppe-stripe", require: "shoppe/stripe"
 gem 'owlcarousel-rails'
+gem 'meta-tags'
 
 group :development do
   gem 'capistrano'

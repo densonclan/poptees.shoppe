@@ -1,6 +1,8 @@
 !!!
 %html
   %head
+    - set_meta_tags description: 'Your online store for all your Retro Lifestyle Essentials.', keywords: 'Retro, cool, vintage, lifestyle, nostalgia, 60s, the 60s, 1960s, 1960&#039;s, the 60&#039;s, 70s, the 70s, 1970s, 1970&#039;s, the 70&#039;s, 80s, the 80s, 1980s, 1980&#039;s, the 80&#039;s,'
+    = display_meta_tags site: "POP! Tees"
     %title #{@page_title} - #{Shoppe.settings.store_name}
     = stylesheet_link_tag :application
     = javascript_include_tag :application

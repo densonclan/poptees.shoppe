@@ -206,6 +206,8 @@ GEM
     mail_form (1.5.1)
       actionmailer (>= 3.2, < 5)
       activemodel (>= 3.2, < 5)
+    meta-tags (2.1.0)
+      actionpack (>= 3.0.0)
     mime-types (2.99)
     mini_magick (4.2.10)
     mini_portile2 (2.0.0)
@@ -360,6 +362,7 @@ DEPENDENCIES
   haml
   jquery-rails
   mail_form
+  meta-tags
   mysql2
   owlcarousel-rails
   rails (= 4.2.3)
