@@ -1,4 +1,4 @@
-#= require google_analytics
+#= require_tree .
 #= require jquery
 #= require jquery_ujs
 #= require shoppe/stripe/form_handler
