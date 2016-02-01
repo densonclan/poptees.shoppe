@@ -5,7 +5,7 @@
     .img{:style => "background-image:url(#{@product.default_image.path})"}
   %h2= @product.name
   %p.intro= @product.short_description
-  
+
   - if @product.has_variants?
     %table.variants
       - for variant in @product.variants
@@ -34,6 +34,8 @@
                 = markdown @product.in_the_box
           %li.item.ask= link_to "Ask a question about this product", contacts_path( :subject => "Question about the #{@product.name}" )
   - else
+  .description
+    = markdown @product.description
 
     .optionsBox
       .top
@@ -67,5 +69,3 @@
         %tr
           %th= attribute.key
           %td= link_to attribute.value, product_filter_path(:key => attribute.key, :value => attribute.value)
-  .description
-    = markdown @product.description
