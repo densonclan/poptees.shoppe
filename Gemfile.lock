@@ -282,6 +282,9 @@ GEM
       sass (~> 3.2.2)
       sprockets (~> 2.8, < 3.0)
       sprockets-rails (~> 2.0)
+    shareable (1.1.4)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
     shoppe (1.1.2)
       awesome_nested_set (~> 3.0.2)
       bcrypt (>= 3.1.2, < 3.2)
@@ -368,6 +371,7 @@ DEPENDENCIES
   rails (= 4.2.3)
   redcarpet
   sass-rails (~> 4.0.0)
+  shareable
   shoppe (~> 1.1.2)
   shoppe-notification
   shoppe-paypal

@@ -19,6 +19,7 @@ gem 'simple_form'
 gem "shoppe-stripe", require: "shoppe/stripe"
 gem 'owlcarousel-rails'
 gem 'meta-tags'
+gem 'shareable'
 
 group :development do
   gem 'capistrano'
