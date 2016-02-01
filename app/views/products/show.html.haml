@@ -34,7 +34,7 @@
                 = markdown @product.in_the_box
           %li.item.ask= link_to "Ask a question about this product", contacts_path( :subject => "Question about the #{@product.name}" )
   - else
-  .description
+  .description 
     = markdown @product.description
 
     .optionsBox
