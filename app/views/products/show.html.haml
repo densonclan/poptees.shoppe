@@ -34,7 +34,7 @@
                 = markdown @product.in_the_box
           %li.item.ask= link_to "Ask a question about this product", contacts_path( :subject => "Question about the #{@product.name}" )
   - else
-  .description 
+  .description
     = markdown @product.description
 
     .optionsBox
@@ -48,7 +48,7 @@
         .stock
           - if @product.in_stock?
             %p.yes In stock
-            %p.time Order in the next <b>#{time_until_next_delivery_cut_off}</b> for delivery #{next_delivery_day}.
+            //%p.time Order in the next <b>#{time_until_next_delivery_cut_off}</b> for delivery #{next_delivery_day}.
           - else
             %p.no Out of stock
             %p.time Sorry - we don't have any stock of this product at the moment. #{link_to "Let me know when you do"}.
