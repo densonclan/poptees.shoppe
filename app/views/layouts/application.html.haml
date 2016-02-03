@@ -9,9 +9,27 @@
     = csrf_meta_tags
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <meta property="fb:admins" content="746548363" />
+    <meta property="fb:app_id" content="1554515258198525" />
     = yield :head
   %body
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1554515258198525',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
 
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     / The main header displayed on all pages
     / Sometimes will be shorted as the page content dictates.
@@ -76,7 +94,7 @@
           / Links to social media
           %ul.social
             %li.twitter= link_to "Twitter", 'http://twitter.com/rewindfans_com'
-            %li.facebook= link_to "Facebook", "https://www.facebook.com/groups/rewind.henley/"
+            %li.facebook= link_to "Facebook", "https://www.facebook.com/poptees.uk"
             %li.pinterest= link_to "Pinterest", "http://pinterest.com"
             %li.linkedin= link_to "Linked In", "http://linkedin.com"
             %li.vimeo= link_to "Vimeo", "http://vimeo.com"
