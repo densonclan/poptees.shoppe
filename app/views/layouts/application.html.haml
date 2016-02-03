@@ -12,7 +12,7 @@
     <meta property="fb:admins" content="746548363" />
     <meta property="fb:app_id" content="1554515258198525" />
     <meta property="og:url" content="#{request.original_url}" />
-    -if defined?(product.name)
+    -if request.path.start_with?('/products')
       <meta property="og:type" content="product" />
       <meta property="og:image" content="http://www.poptees.uk#{@product.default_image.path}" />
       <meta property="og:title" content="#{@product.name}" />
