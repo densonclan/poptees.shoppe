@@ -1,8 +1,11 @@
 #= require google_analytics
+#= require facebook_api
 #= require jquery
 #= require jquery_ujs
 #= require shoppe/stripe/form_handler
 #= require owl.carousel
+
+
 
 $ ->
 
