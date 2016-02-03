@@ -8,7 +8,8 @@ Rails.application.routes.draw do
   #
   # Product browising
   #
-  get 'products' => 'products#categories', :as => 'catalogue'
+  get 'categories' => 'products#categories', :as => 'catalogue'
+  get 'products' => 'products#categories', :as => 'product_list'
   get 'products/filter' => 'products#filter', :as => 'product_filter'
   get 'category/:category_id' => 'products#index', :as => 'products'
   get 'products/:category_id/:product_id' => 'products#show', :as => 'product'
