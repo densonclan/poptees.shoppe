@@ -284,9 +284,10 @@ section.content {
 			    margin-right: auto;
 					margin-bottom:30px;
 					div.img {  border-radius: 10px; margin-right: 10px; width:400px; height:282px; text-align:center; background-size:contain; background-position:center bottom; background-repeat:no-repeat;}
+					h4 { text-align: center; font-size:1.2em; background-color: #666; color:#fff; border-radius: 10px;  margin-right: 10px;}
 					div.space {
-						h4 { font-size:1.3em;color:#333; }
-						h4 a { text-decoration:none;}
+						h4 { text-align: center; font-size:1.3em;color:#333; }
+						h4 a { text-align: center; text-decoration:none;}
 						h4 a:hover { text-decoration:underline;}
 						p { line-height:1.7; font-size:0.9em; margin-top:10px;}
 						margin-left:150px;
