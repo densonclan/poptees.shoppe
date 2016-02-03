@@ -4,16 +4,16 @@ Rails.application.routes.draw do
   # Shoppe admin interface
   #
   mount Shoppe::Engine => "/admin"
-  
+
   #
   # Product browising
   #
   get 'products' => 'products#categories', :as => 'catalogue'
   get 'products/filter' => 'products#filter', :as => 'product_filter'
-  get 'products/:category_id' => 'products#index', :as => 'products'
+  get 'category/:category_id' => 'products#index', :as => 'products'
   get 'products/:category_id/:product_id' => 'products#show', :as => 'product'
   post 'products/:category_id/:product_id/buy' => 'products#add_to_basket', :as => 'buy_product'
-  
+
   #
   # Order status
   #
@@ -27,7 +27,7 @@ Rails.application.routes.draw do
   post 'basket/:order_item_id' => 'orders#change_item_quantity', :as => 'adjust_basket_item_quantity'
   delete 'basket/:order_item_id' => 'orders#change_item_quantity'
   delete 'basket/delete/:order_item_id' => 'orders#remove_item', :as => 'remove_basket_item'
-  
+
   #
   # Checkout
   #
@@ -45,11 +45,11 @@ Rails.application.routes.draw do
   # Static pages
   #
   get ':action', :controller => 'pages', :as => 'page'
-  
-  # 
+
+  #
   # Homepage
   #
   root :to => 'pages#home'
 
-  
+
 end
