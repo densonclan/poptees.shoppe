@@ -59,6 +59,8 @@ div#flash-alert { background:#a13361; color:#fff; text-align:center; padding:8px
 // Primary header
 //
 header.main {
+	position: relative;
+	z-index: 11;
 	background:image-url('header.jpg') #0a1f20 50% 50%;
 	background-size:cover;
 	color:#fff;
