@@ -5,7 +5,7 @@
     .img{:style => "background-image:url(#{@product.default_image.path})"}
 
 
-  %h2= @product.name
+  %h1= @product.name
   %p.intro= @product.short_description
 
   - if @product.has_variants?

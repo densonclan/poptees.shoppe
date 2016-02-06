@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^poptees.uk [nc]
+rewriterule ^(.*)$ http://www.poptees.uk/$1 [r=301,nc]
