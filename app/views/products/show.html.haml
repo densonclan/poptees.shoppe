@@ -37,37 +37,37 @@
                 = markdown @product.in_the_box
           %li.item.ask= link_to "Ask a question about this product", contacts_path( :subject => "Question about the #{@product.name}" )
   - else
-  .description
-    = markdown @product.description
+    .description
+      = markdown @product.description
 
-    .optionsBox
-      .top
-        %p.price= number_to_currency @product.price
-        = form_tag buy_product_path(@product.product_category.permalink, @product.permalink), :class => (@product.in_stock? ? 'in-stock' : 'no-stock') do
-          %p
-            = select_tag 'quantity', options_for_select([1,2,3,4,5,6,7,8,9]), :disabled => !@product.in_stock?
-            = submit_tag 'Add to basket', :disabled => !@product.in_stock?
-      .bottom
-        .stock
+      .optionsBox
+        .top
+          %p.price= number_to_currency @product.price
+          = form_tag buy_product_path(@product.product_category.permalink, @product.permalink), :class => (@product.in_stock? ? 'in-stock' : 'no-stock') do
+            %p
+              = select_tag 'quantity', options_for_select([1,2,3,4,5,6,7,8,9]), :disabled => !@product.in_stock?
+              = submit_tag 'Add to basket', :disabled => !@product.in_stock?
+        .bottom
+          .stock
 
-          - if @product.in_stock?
-            %p.yes In stock
-            //%p.time Order in the next <b>#{time_until_next_delivery_cut_off}</b> for delivery #{next_delivery_day}.
-          - else
-            %p.no Out of stock
-            %p.time Sorry - we don't have any stock of this product at the moment. #{link_to "Let me know when you do"}.
-        .links
-          = render_shareable :buttons=> ['twitter', 'facebook']
-          %ul
-            - if @product.data_sheet
-              %li.item.datasheet= link_to "Read product datasheet", @product.data_sheet.path
-            - unless @product.in_the_box.blank?
-              %li.item.box
-                = link_to "What's in the box?"
-                %div.in_the_box
-                  %h3 What's in the box?
-                  = markdown @product.in_the_box
-                  %li.item.ask= link_to "Ask a question about this product", contacts_path( :subject => "Question about the #{@product.name}" )
+            - if @product.in_stock?
+              %p.yes In stock
+              //%p.time Order in the next <b>#{time_until_next_delivery_cut_off}</b> for delivery #{next_delivery_day}.
+            - else
+              %p.no Out of stock
+              %p.time Sorry - we don't have any stock of this product at the moment. #{link_to "Let me know when you do"}.
+  .links
+    = render_shareable :buttons=> ['twitter', 'facebook']
+    %ul
+      - if @product.data_sheet
+        %li.item.datasheet= link_to "Read product datasheet", @product.data_sheet.path
+      - unless @product.in_the_box.blank?
+        %li.item.box
+          = link_to "What's in the box?"
+          %div.in_the_box
+            %h3 What's in the box?
+            = markdown @product.in_the_box
+            %li.item.ask= link_to "Ask a question about this product", contacts_path( :subject => "Question about the #{@product.name}" )
   - unless @attributes.empty?
     %table.attributes
       - for attribute in @attributes
