@@ -8,7 +8,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 #  HENLEY BLACK / YELLOW
-#  pro = Shoppe::Product.find_by!(sku: 'hen-blk-yel')
+pro = Shoppe::Product.find_by!(sku: 'hen-blk-yel')
 #  t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'hen-blk-yel-u-small', permalink: 'hen-blk-yel-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 #  t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'hen-blk-yel-u-medium', permalink: 'hen-blk-yel-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 #  t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'hen-blk-yel-u-large', permalink: 'hen-blk-yel-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
