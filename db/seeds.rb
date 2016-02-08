@@ -8,30 +8,30 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 #  North BLACK / YELLOW
-  pro = Shoppe::Product.find_by!(sku: 'nth-blk-yel')
-  t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'nth-blk-yel-u-small', permalink: 'nth-blk-yel-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'nth-blk-yel-u-medium', permalink: 'nth-blk-yel-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'nth-blk-yel-u-large', permalink: 'nth-blk-yel-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  t4 = pro.variants.create(name: 'Unisex Tee XL', sku: 'nth-blk-yel-u-xl', permalink: 'nth-blk-yel-u-xl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  t5 = pro.variants.create(name: 'Unisex Tee XXL', sku: 'nth-blk-yel-u-xxl', permalink: 'nth-blk-yel-u-xxl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  t6 = pro.variants.create(name: 'Unisex Tee XXL', sku: 'nth-blk-yel-u-xxxl', permalink: 'nth-blk-yel-u-xxxl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  t1.save!
-  t2.save!
-  t3.save!
-  t4.save!
-  t5.save!
-  t6.save!
+#  pro = Shoppe::Product.find_by!(sku: 'nth-blk-yel')
+#  t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'nth-blk-yel-u-small', permalink: 'nth-blk-yel-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'nth-blk-yel-u-medium', permalink: 'nth-blk-yel-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'nth-blk-yel-u-large', permalink: 'nth-blk-yel-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  t4 = pro.variants.create(name: 'Unisex Tee XL', sku: 'nth-blk-yel-u-xl', permalink: 'nth-blk-yel-u-xl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  t5 = pro.variants.create(name: 'Unisex Tee XXL', sku: 'nth-blk-yel-u-xxl', permalink: 'nth-blk-yel-u-xxl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  t6 = pro.variants.create(name: 'Unisex Tee XXL', sku: 'nth-blk-yel-u-xxxl', permalink: 'nth-blk-yel-u-xxxl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  t1.save!
+#  t2.save!
+#  t3.save!
+#  t4.save!
+#  t5.save!
+#  t6.save!
 
-  v1 = pro.variants.create(name: 'Vest Top Small', sku: 'nth-blk-yel-v-small', permalink: 'nth-blk-yel-v-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v2 = pro.variants.create(name: 'Vest Top Medium', sku: 'nth-blk-yel-v-medium', permalink: 'nth-blk-yel-v-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v3 = pro.variants.create(name: 'Vest Top Large', sku: 'nth-blk-yel-v-large', permalink: 'nth-blk-yel-v-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v4 = pro.variants.create(name: 'Vest Top XL', sku: 'nth-blk-yel-v-xl', permalink: 'nth-blk-yel-v-xl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v5 = pro.variants.create(name: 'Vest Top XXL', sku: 'nth-blk-yel-v-xxl', permalink: 'nth-blk-yel-v-xxl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v1.save!
-  v2.save!
-  v3.save!
-  v4.save!
-  v5.save!
+#  v1 = pro.variants.create(name: 'Vest Top Small', sku: 'nth-blk-yel-v-small', permalink: 'nth-blk-yel-v-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  v2 = pro.variants.create(name: 'Vest Top Medium', sku: 'nth-blk-yel-v-medium', permalink: 'nth-blk-yel-v-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  v3 = pro.variants.create(name: 'Vest Top Large', sku: 'nth-blk-yel-v-large', permalink: 'nth-blk-yel-v-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  v4 = pro.variants.create(name: 'Vest Top XL', sku: 'nth-blk-yel-v-xl', permalink: 'nth-blk-yel-v-xl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+##  v5 = pro.variants.create(name: 'Vest Top XXL', sku: 'nth-blk-yel-v-xxl', permalink: 'nth-blk-yel-v-xxl', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
+#  v1.save!
+#  v2.save!
+#  v3.save!
+#  v4.save!
+#  v5.save!
 
 #  North BLACK / Gold
   pro = Shoppe::Product.find_by!(sku: 'nth-blk-gld')
