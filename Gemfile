@@ -9,7 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'redcarpet'
 gem 'faker'
-gem 'shoppe', '~> 1.1.2'
+gem 'shoppe', :git => 'https://github.com/tryshoppe/shoppe.git'
 gem 'thin'
 gem "shoppe-paypal"
 gem 'yaml_db'
