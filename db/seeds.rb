@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+pro = Shoppe::Product.find(sku: 'hen-blk-yel')
+v1 = pro.variants.create(name: 'Vest Top Small', sku: 'hen-blk-yel-v-small', price: 14.99, cost_price: 5, weight: 0.200)
