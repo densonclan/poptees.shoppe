@@ -2,7 +2,7 @@
 - @page_title = 'Collections'
 .categories
   %ul
-    - for category in @product_categories
+    - for category in @product_categories.without_parent
       %li
         = link_to products_path(category.permalink) do
           %div.img{:style => category.image ? "background-image:url(#{category.image.path})" : 'background-color:#efefef'}
