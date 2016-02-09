@@ -7,8 +7,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-#  Scone- BLACK / YELLOW
-  pro = Shoppe::Product.find_by!(sku: 'scn-blk-yel')
+  pro = Shoppe::Product.find_by!(sku: 'made80')
   t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-blk-yel-u-small', permalink: 'scn-blk-yel-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
   t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-blk-yel-u-medium', permalink: 'scn-blk-yel-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
   t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-blk-yel-u-large', permalink: 'scn-blk-yel-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -34,7 +33,7 @@
   v5.save!
 
 #  Scone- BLACK / Gold
-  pro = Shoppe::Product.find_by!(sku: 'scn-blk-gld')
+  pro = Shoppe::Product.find_by!(sku: 'made81')
   t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-blk-gld-u-small', permalink: 'scn-blk-gld-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
   t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-blk-gld-u-medium', permalink: 'scn-blk-gld-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
   t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-blk-gld-u-large', permalink: 'scn-blk-gld-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -61,7 +60,7 @@
 
 
 #  Scone- BLACK / Green
-pro = Shoppe::Product.find_by!(sku: 'scn-blk-grn')
+pro = Shoppe::Product.find_by!(sku: 'made82')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-blk-grn-u-small', permalink: 'scn-blk-grn-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-blk-grn-u-medium', permalink: 'scn-blk-grn-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-blk-grn-u-large', permalink: 'scn-blk-grn-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -88,7 +87,7 @@ v5.save!
 
 
 #  Scone- BLACK / Orange
-pro = Shoppe::Product.find_by!(sku: 'scn-blk-org')
+pro = Shoppe::Product.find_by!(sku: 'made83')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-blk-org-u-small', permalink: 'scn-blk-org-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-blk-org-u-medium', permalink: 'scn-blk-org-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-blk-org-u-large', permalink: 'scn-blk-org-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -115,7 +114,7 @@ v5.save!
 
 
 #  Scone- BLACK / Pink
-pro = Shoppe::Product.find_by!(sku: 'scn-blk-pink')
+pro = Shoppe::Product.find_by!(sku: 'made84')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-blk-pink-u-small', permalink: 'scn-blk-pink-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-blk-pink-u-medium', permalink: 'scn-blk-pink-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-blk-pink-u-large', permalink: 'scn-blk-pink-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -142,7 +141,7 @@ v5.save!
 
 
 #  Scone- BLACK / White
-pro = Shoppe::Product.find_by!(sku: 'scn-blk-wht')
+pro = Shoppe::Product.find_by!(sku: 'made85')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-blk-wht-u-small', permalink: 'scn-blk-wht-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-blk-wht-u-medium', permalink: 'scn-blk-wht-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-blk-wht-u-large', permalink: 'scn-blk-wht-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -169,7 +168,7 @@ v5.save!
 
 
 #  Scone- White / Black
-pro = Shoppe::Product.find_by!(sku: 'scn-wht-blk')
+pro = Shoppe::Product.find_by!(sku: 'made86')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-wht-blk-u-small', permalink: 'scn-wht-blk-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-wht-blk-u-medium', permalink: 'scn-wht-blk-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-wht-blk-u-large', permalink: 'scn-wht-blk-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -196,7 +195,7 @@ v5.save!
 
 
 #  Scone- White / Gold
-pro = Shoppe::Product.find_by!(sku: 'scn-wht-gld')
+pro = Shoppe::Product.find_by!(sku: 'made87')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-wht-gld-u-small', permalink: 'scn-wht-gld-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-wht-gld-u-medium', permalink: 'scn-wht-gld-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-wht-gld-u-large', permalink: 'scn-wht-gld-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -223,7 +222,7 @@ v5.save!
 
 
 #  Scone- White / Green
-pro = Shoppe::Product.find_by!(sku: 'scn-wht-grn')
+pro = Shoppe::Product.find_by!(sku: 'made88')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-wht-grn-u-small', permalink: 'scn-wht-grn-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-wht-grn-u-medium', permalink: 'scn-wht-grn-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-wht-grn-u-large', permalink: 'scn-wht-grn-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -250,7 +249,7 @@ v5.save!
 
 
 #  Scone- White / Orange
-pro = Shoppe::Product.find_by!(sku: 'scn-wht-org')
+pro = Shoppe::Product.find_by!(sku: 'made89')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-wht-org-u-small', permalink: 'scn-wht-org-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-wht-org-u-medium', permalink: 'scn-wht-org-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-wht-org-u-large', permalink: 'scn-wht-org-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
@@ -277,7 +276,7 @@ v5.save!
 
 
 #  Scone- White / Pink
-pro = Shoppe::Product.find_by!(sku: 'scn-wht-pink')
+pro = Shoppe::Product.find_by!(sku: 'vinylrules')
 t1 = pro.variants.create(name: 'Unisex Tee Small', sku: 'scn-wht-pink-u-small', permalink: 'scn-wht-pink-u-small', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t2 = pro.variants.create(name: 'Unisex Tee Medium', sku: 'scn-wht-pink-u-medium', permalink: 'scn-wht-pink-u-medium', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
 t3 = pro.variants.create(name: 'Unisex Tee Large', sku: 'scn-wht-pink-u-large', permalink: 'scn-wht-pink-u-large', price: 14.99, cost_price: 5, weight: 0.200, stock_control: false)
