@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   mount Shoppe::Engine => "/admin"
 
   #
-  # Product browising
+  # Product browsing
   #
   get 'categories' => 'products#categories', :as => 'catalogue'
   get 'products' => 'products#categories', :as => 'product_list'
@@ -37,6 +37,7 @@ Rails.application.routes.draw do
   match 'checkout/pay' => 'orders#payment', :as => 'checkout_payment', :via => [:get, :patch]
   match 'checkout/confirm' => 'orders#confirmation', :as => 'checkout_confirmation', :via => [:get, :patch]
   get "checkout/paypal", to: "orders#paypal"
+  post "/apply_coupon", to: "orders#add_coupon", as: "apply_coupon"
 
  # Contact
   match '/contacts', to: 'contacts#new', via: 'get'

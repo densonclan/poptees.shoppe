@@ -6,9 +6,12 @@
 
   %h3 Review the products in your shopping bag
   = render 'shared/order_items', :order => @order
+  //= form_tag apply_coupon_path, :html => {:class => 'checkout disableable'} class: "form-inline" do
+  = form_tag apply_coupon_path, :html => {:class => 'checkout disableable'} do
+    =text_field :promocode, '', placeholder: "Enter your voucher code"
+    %p.submit= submit_tag 'Add Voucher', data: {disable_with: 'Adding Voucher'}
 
-   
+
   %p.paypal
     =link_to image_tag("checkoutwithpaypal.png"), checkout_paypal_path
   %h3 Make your payment
- 

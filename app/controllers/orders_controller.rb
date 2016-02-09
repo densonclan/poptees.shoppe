@@ -128,4 +128,25 @@ class OrdersController < ApplicationController
     redirect_to url
   end
 
+  def add_coupon
+
+    if Shoppe::Promocode.valid_coupon?(params[:promocode])
+      @promocode = Shoppe::Promocode.where(code: params[:promocode]).first
+      #the following can be refactored and placed into a method on the Promocode object. Will be added to the next release
+      if @promocode.discount_type == "percentage"
+        coupon_value = current_order.total_before_tax * @promocode.discount_value / 100
+      else
+        coupon_value = @promocode.discount_value
+      end
+      c = current_order.order_items.new(ordered_item_id: @promocode.id, ordered_item_type: "Shoppe::Promocode", quantity: 1, unit_price: -coupon_value, unit_cost_price: 0, tax_amount: 0, tax_rate: 0, weight: 0)
+      c.save(validate: false) #shoppe platform has a validation to make sure that items in the cart are actual products. This is a hack-ish way to jump over that. If you have a better suggestion, please let me know
+      current_order.reload
+      redirect_to checkout_payment_path, alert: "Coupon Redeemed" and return
+    else
+      redirect_to checkout_payment_path, alert: "Invalid coupon" and return
+    end
+    redirect_to checkout_payment_path, alert: "Something is not quite right! Coupon code cannot be added to cart." and return
+  end
+
+
 end

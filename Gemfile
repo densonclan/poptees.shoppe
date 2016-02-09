@@ -20,6 +20,7 @@ gem "shoppe-stripe", require: "shoppe/stripe"
 gem 'owlcarousel-rails'
 gem 'meta-tags'
 gem 'shareable'
+gem 'shoppe_promocode'
 
 group :development do
   gem 'capistrano'

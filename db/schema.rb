@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150519173350) do
+ActiveRecord::Schema.define(version: 20150901004127) do
 
   create_table "nifty_attachments", force: :cascade do |t|
     t.integer  "parent_id"
@@ -289,6 +289,19 @@ ActiveRecord::Schema.define(version: 20150519173350) do
   add_index "shoppe_products", ["parent_id"], name: "index_shoppe_products_on_parent_id"
   add_index "shoppe_products", ["permalink"], name: "index_shoppe_products_on_permalink"
   add_index "shoppe_products", ["sku"], name: "index_shoppe_products_on_sku"
+
+  create_table "shoppe_promocodes", force: :cascade do |t|
+    t.string   "title"
+    t.string   "code"
+    t.string   "discount_type"
+    t.float    "discount_value"
+    t.integer  "usage_limit",       default: 0
+    t.integer  "times_used",        default: 0
+    t.datetime "active_start_date"
+    t.datetime "active_end_date"
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
+  end
 
   create_table "shoppe_settings", force: :cascade do |t|
     t.string "key"

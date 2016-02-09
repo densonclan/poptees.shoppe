@@ -316,6 +316,9 @@ GEM
       coffee-rails (~> 4)
       shoppe (> 0.0.9, < 2)
       stripe (~> 1.8.7)
+    shoppe_promocode (0.0.2)
+      rails (>= 4.0)
+      shoppe
     simple_form (3.2.1)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
@@ -379,6 +382,7 @@ DEPENDENCIES
   shoppe-notification
   shoppe-paypal
   shoppe-stripe
+  shoppe_promocode
   simple_form
   sqlite3
   thin
