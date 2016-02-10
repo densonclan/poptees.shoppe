@@ -24,10 +24,3 @@ module ExampleStore
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
-
-# in application.rb
-module FastestAppEver
-  class Application < Rails::Application
-    config.middleware.use Rack::Deflater
-  end
-end
