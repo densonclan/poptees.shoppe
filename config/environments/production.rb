@@ -79,4 +79,8 @@ Rails.application.configure do
 
   config.assets.css_compressor = :yui
   config.assets.js_compressor = :uglifier
+
+
+  config.static_cache_control = "public, s-maxage=15552000, max-age=2592000"
+
 end
