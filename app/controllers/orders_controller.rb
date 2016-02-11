@@ -13,7 +13,7 @@ class OrdersController < ApplicationController
     respond_to do |wants|
       wants.html { redirect_to root_path, :notice => "Your basket has been emptied successfully."}
       wants.json do
-        flash[:notice] = "Your shopping bag is now empty."
+        flash.now[:notice] = "Your shopping bag is now empty."
         render :json => {:status => 'complete', :redirect => root_path}
       end
     end
@@ -111,10 +111,10 @@ class OrdersController < ApplicationController
 
         #session[:order_id] = nil
       rescue Shoppe::Errors::PaymentDeclined => e
-        flash[:alert] = "Payment was declined by the bank. #{e.message}"
+        flash.now[:alert] = "Payment was declined by the bank. #{e.message}"
         redirect_to checkout_path
       rescue Shoppe::Errors::InsufficientStockToFulfil
-        flash[:alert] = "We're terribly sorry but while you were checking out we ran out of stock of some of the items in your basket. Your basket has been updated with the maximum we can currently supply. If you wish to continue just use the button below."
+        flash.now[:alert] = "We're terribly sorry but while you were checking out we ran out of stock of some of the items in your basket. Your basket has been updated with the maximum we can currently supply. If you wish to continue just use the button below."
         redirect_to checkout_path
       end
     end
