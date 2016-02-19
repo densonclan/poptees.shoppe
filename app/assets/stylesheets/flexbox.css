@@ -48,7 +48,22 @@ nav.main ul li {
       margin-right: 10px;
 }
 
+
+footer.main {
+  display:flex;
+  flex-direction: row;
+}
+
+
+
 @media screen and (max-width: 740px) {
+  footer.main {
+    flex-direction: column;
+  }
+  .copyright {
+    display:none;
+  }
+
   header.main h2 {
     font-size: 2em;
   }
@@ -63,6 +78,20 @@ nav.main ul li {
     flex-direction: column;
   }
 
+  @media screen and (max-width: 400px) {
+    header.main h2 {
+      font-size: 2em;
+    }
+    .content {
+      width: 320px;
+    }
+    .primary {
+      width: 100%;
+    }
+    .sidebar { display: none;}
+    nav.main ul  {
+      flex-direction: column;
+    }
 
 
 }
