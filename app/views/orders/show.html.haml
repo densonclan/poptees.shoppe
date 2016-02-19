@@ -6,4 +6,5 @@
     just click the 'Checkout' button on the right and we'll ask for a few details and place the order.
 
   = render 'shared/order_items', :order => current_order
-  
+  %p.buttons
+    = link_to "Checkout", checkout_path, :class => 'checkout'
