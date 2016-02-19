@@ -21,6 +21,7 @@ gem 'owlcarousel-rails'
 gem 'meta-tags'
 gem 'shareable'
 gem 'shoppe_promocode'
+gem 'yui-compressor', '~> 0.12.0'
 
 group :development do
   gem 'capistrano'

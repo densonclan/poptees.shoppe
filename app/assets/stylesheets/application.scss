@@ -1,8 +1,8 @@
 //= require reset
 //= require owl.carousel
 //= require owl.theme
-@import "font-awesome.min.css";
-@import "budicon.css";
+//= require "font-awesome.min.css"
+//= require "budicon.css";
 
 $font: Lato, Arial, sans-serif;
 
@@ -53,7 +53,7 @@ div.field_with_error { display:inline;}
 // Flash messages
 //
 div#flash-notice { background:#33a174; color:#fff; text-align:center; padding:8px; font-size:0.9em; font-weight:bold;}
-div#flash-alert { background:#a13361; color:#fff; text-align:center; padding:8px; font-size:0.9em; font-weight:bold;}
+div#flash-alert  { background:#a13361; color:#fff; text-align:center; padding:8px; font-size:0.9em; font-weight:bold;}
 
 //
 // Primary header
