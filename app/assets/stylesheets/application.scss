@@ -4,7 +4,7 @@
 
 $font: Lato, Arial, sans-serif;
 
-html { font-family: $font; font-size:100%; background:#112326; }
+html { font-family: $font; font-size:100%; background: transparent; }
 body { -webkit-font-smoothing:antialiased}
 a { color:inherit;}
 
@@ -41,7 +41,11 @@ div.demo {
 // The inner container for the page
 //
 div.inner {
-	width:1280px;
+	//width:1280px;
+	margin:auto;
+}
+div.innerhead {
+	//width:1280px;
 	margin:auto;
 }
 
@@ -68,12 +72,12 @@ header.main {
 	// Navigation
 	//
 	nav.main {
-		padding:45px 0 0px 0;
+		//padding:45px 0 0px 0;
 		overflow:hidden;
 		ul {
 			float:left;
 			overflow:hidden;
-			li { float:left; margin-right:40px;}
+			li { float:left; }
 			li a { color:#fff; display:block;	text-decoration:none; border-bottom:3px solid transparent; padding-bottom:3px;}
 			li a:hover { border-color:#fff;}
 			li a.noborder:hover { border-color:transparent }
@@ -145,7 +149,7 @@ section.content {
 	padding-bottom:30px;
 	overflow:hidden;
 	section.primary {
-		width:70%;
+		//width:70%;
 		padding-top:40px;
 
 		//
@@ -175,25 +179,23 @@ section.content {
 		//
 		ul.products {
 			font-size:0.9em;
-			margin:25px 0;
+			margin:25px auto;
 			overflow:hidden;
 			li {
-				padding: 15px;
+				padding: 1%;
 				border-style: solid;
 				border-color: #ff6600;
     		border-width: 2px;
 				border-radius: 4px;
-				margin: 5px;
-				margin-top:5px;
-				margin-bottom: 5px;
-				width:45%;
+				margin: 5px auto;
+				width:90%;
 				float:left;
-				height:140px;
+
 				div.img {
 					background-repeat:no-repeat;
 					background-size:contain;
 					background-position: center center;
-					width:50%;
+					width:30%;
 					height:120px	;
 					float:left;
 				}
@@ -449,7 +451,7 @@ section.content {
 		//
 		div.product {
 			overflow:hidden;
-			.img { float:right; width:45%; height:260px; background-size:contain; background-repeat:no-repeat; background-position:top right;}
+			.img { float:right; width:90%; height:260px; background-size:contain; background-repeat:no-repeat; background-position:top right;}
 			h1 { font-size:2.0em;color:#ff0099;}
 			h2 { font-size:2.0em;color:#ff0099;}
 			p.intro { font-size:0.8em; color:#333; line-height:1.5; margin-top:8px; width:50%;}
@@ -582,7 +584,7 @@ section.content {
 	//
 	section.sidebar {
 		float:right;
-		width:25%;
+		//width:25%;
 		div.basket {
 			background:image-url('bag.svg') #DFF0F1 no-repeat 18px 18px;
 			background-size:14px;
