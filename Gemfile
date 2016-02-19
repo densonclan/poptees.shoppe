@@ -22,6 +22,7 @@ gem 'meta-tags'
 gem 'shareable'
 gem 'shoppe_promocode'
 gem 'yui-compressor', '~> 0.12.0'
+gem 'sprockets-image_compressor'
 
 group :development do
   gem 'capistrano'
