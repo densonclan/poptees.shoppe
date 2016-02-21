@@ -18,8 +18,7 @@
   t3.save!
   t4.save!
   t5.save!
-  t6.save!
-
+ 
   v1 = pro.variants.create(name: 'Unisex Zipped Hoodie Small', sku: 'hen-blk-yel-z-small', permalink: 'hen-blk-yel-z-small', price: 22.99, cost_price: 5, weight: 0.300, stock_control: false)
   v2 = pro.variants.create(name: 'Unisex Zipped Hoodie Medium', sku: 'hen-blk-yel-z-medium', permalink: 'hen-blk-yel-z-medium', price: 22.99, cost_price: 5, weight: 0.300, stock_control: false)
   v3 = pro.variants.create(name: 'Unisex Zipped Hoodie Large', sku: 'hen-blk-yel-z-large', permalink: 'hen-blk-yel-z-large', price: 22.99, cost_price: 5, weight: 0.300, stock_control: false)
