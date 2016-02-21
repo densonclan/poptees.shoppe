@@ -7,19 +7,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  pro = Shoppe::Product.find_by!(sku: 'scn-wht-yel')
-  v1 = pro.variants.create(name: 'Kids Tee Age 3-4 years', sku: 'scn-wht-yel-k-34', permalink: 'scn-wht-yel-k-34', price: 9.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v2 = pro.variants.create(name: 'Kids Tee Age 5-6 years', sku: 'scn-wht-yel-k-56', permalink: 'scn-wht-yel-k-56', price: 9.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v3 = pro.variants.create(name: 'Kids Tee Age 7-8 years', sku: 'scn-wht-yel-k-78', permalink: 'scn-wht-yel-k-78', price: 9.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v4 = pro.variants.create(name: 'Kids Tee Age 9-11 years', sku: 'scn-wht-yel-k-911', permalink: 'scn-wht-yel-k-911', price: 9.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v5 = pro.variants.create(name: 'Kids Tee Age 12-13 years', sku: 'scn-wht-yel-k-1213', permalink: 'scn-wht-yel-k-1213', price: 9.99, cost_price: 5, weight: 0.200, stock_control: false)
-  v1.save!
-  v2.save!
-  v3.save!
-  v4.save!
-  v5.save!
-
-  pro = Shoppe::Product.find_by!(sku: 'scn-wht-gld')
+ pro = Shoppe::Product.find_by!(sku: 'scn-wht-gld')
   v1 = pro.variants.create(name: 'Kids Tee Age 3-4 years', sku: 'scn-wht-gld-k-34', permalink: 'scn-wht-gld-k-34', price: 9.99, cost_price: 5, weight: 0.200, stock_control: false)
   v2 = pro.variants.create(name: 'Kids Tee Age 5-6 years', sku: 'scn-wht-gld-k-56', permalink: 'scn-wht-gld-k-56', price: 9.99, cost_price: 5, weight: 0.200, stock_control: false)
   v3 = pro.variants.create(name: 'Kids Tee Age 7-8 years', sku: 'scn-wht-gld-k-78', permalink: 'scn-wht-gld-k-78', price: 9.99, cost_price: 5, weight: 0.200, stock_control: false)
