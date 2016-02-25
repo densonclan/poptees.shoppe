@@ -9,6 +9,8 @@
   %p.intro= @product.short_description
 
   - if @product.has_variants?
+    .description
+      = markdown @product.description
     %table.variants
       - for variant in @product.variants
         %tr
