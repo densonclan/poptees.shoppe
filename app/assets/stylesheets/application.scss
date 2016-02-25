@@ -991,3 +991,36 @@ $white: #fff;
 	margin: auto;
 	height: auto;
 }
+
+
+//
+// order & customer summary pages
+//
+#sizing {
+	.details {
+		overflow:hidden;
+		.left {
+			width:45%;
+			float:left
+		}
+		.middle {width: 5%; float: left;}
+		.right {
+			width:45%;
+			float:left;
+			p.acceptreject { text-align:center; margin-top:22px; }
+			p.acceptreject a { margin: 0 5px;}
+			p.ship { text-align:center; margin-top:22px;}
+			p.ship input[type=text] {  }
+		}
+
+			dt { width:30%; font-weight: bold; font-size:2.0em;color:#ff0099;}
+			dd { font-weight:bold; margin-left:35%; margin-bottom:6px; }
+			dd a { color:inherit;}
+			dt.padding { padding-top:6px;}
+
+			h1 { font-size:2.0em;color:#ff0099;}
+			h2 { font-size:2.0em;color:#ff0099;}
+			h3 { font-size:1.5em;color:#ff0099;}
+			th { width: 10%; text-align: left;}
+	}
+}
