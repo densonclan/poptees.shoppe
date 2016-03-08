@@ -8,6 +8,7 @@
 .innerhead {
   display:flex;
   flex-direction: column;
+
 }
 
 .main {
@@ -58,6 +59,9 @@ footer.main {
   footer.main {
     flex-direction: column;
   }
+  .inner {
+        flex-direction: row;;
+  }
   .copyright {
     display:none;
   }
@@ -66,12 +70,14 @@ footer.main {
     font-size: 2em;
   }
   .content {
+
     width: 740px;
   }
   .primary {
     width: 100%;
   }
   .sidebar { display: none;}
+  .owl-wrapper-outer { display: none;}
   nav.main ul  {
     flex-direction: column;
   }
@@ -111,7 +117,7 @@ footer.main {
 @media screen and (min-width: 1280px) {
   .content {
     width: 1470px;
-    margin: auto;
+    margin: 0;
   }
   nav.main ul  {
     flex-direction: row;
