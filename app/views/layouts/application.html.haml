@@ -35,6 +35,7 @@
               %ul
                 - for category in Shoppe::ProductCategory.ordered
                   %li= link_to category.name, products_path(category.permalink)
+            %li= link_to "Custom Tees and Workwear", page_path(:custom), :nav_item => :custom
             %li= link_to "Why shop with us?", page_path(:why), :nav_item => :why
             %li= link_to "FAQs", page_path(:faqs), :nav_item => :shipping
             %li= link_to "Shipping", page_path(:shipping), :nav_item => :faqs
